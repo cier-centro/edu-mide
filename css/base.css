@@ -57,3 +57,7 @@
 .mide-page .breadcrumb{
   margin-bottom: 0px;
 }
+.mide-page .parent_menu .active {
+  background-color: #ea7474;
+  color: #fff !important;
+}
