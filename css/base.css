@@ -1,0 +1,59 @@
+
+.mide-page .mide-header-logo{
+    height: 80px;
+    background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-header-logo.png') no-repeat center;
+    margin: 15px 0;
+}
+.mide-page .mide-banner{
+	background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-banner-bg.jpg') no-repeat top left;
+	/*height:120px;*/
+}
+.mide-page .mide-slogan{
+	padding: 30px 10px 10px 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+	color:#564577;
+}
+.mide-page .mide-page-banner span{
+	display:none;
+  background-color: #FFFFFF;
+}
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu > a{
+  display: block;
+  padding: 10px 10px 10px 10px;
+  border-right: 0px;
+  color:#727176;
+  border-bottom: 4px solid #ea7474;
+  text-decoration:none;
+  font-size: 13px;
+  -webkit-transition: background 100ms ease-in;
+  -moz-transition: background 100ms ease-in;
+  -ms-transition: background 100ms ease-in;
+  -o-transition: background 100ms ease-in;
+  transition: background 100ms ease-in;
+}
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu > a:hover{
+  background-color: #ea7474;
+  color:#ffffff;
+}
+.mide-page #microsite_panel .pane-content > .menu{
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu{
+  width: 21%;
+}
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu:first-child{
+  width: 22%;
+}
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu:last-child{
+  width: 15%
+}
+.mide-page .title{
+  display:none;
+}
+.mide-page .breadcrumb{
+  margin-bottom: 0px;
+}
