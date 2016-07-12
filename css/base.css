@@ -61,3 +61,43 @@
   background-color: #ea7474;
   color: #fff !important;
 }
+.mide-page .panels-flexible-region {
+    background: white;
+}
+.mide-page .contact-view {
+  background: #EFEFF0;
+  border-radius: 10px;
+}
+.mide-page .contact-item {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+.mide-page .contact-logo {
+  background: url('../images/contact-logo.png') no-repeat center center / contain;
+  height: 180px;
+  margin: 30px 0;
+}
+.mide-page .email-contact-icon,
+.mide-page .phone-contact-icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  float: left;
+}
+.mide-page .email-contact-icon {
+  background: url('../images/email-contact-icon.png') no-repeat center center / contain;
+}
+.mide-page .phone-contact-icon {
+  background: url('../images/phone-contact-icon.png') no-repeat center center / contain;
+}
+
+.mide-page .contact-view b {
+  margin: 0 0 0 15px;
+}
+@media (min-width: 768px) {
+  .mide-page .contact-view {
+    display: flex;
+    align-items: center;
+  }
+}
