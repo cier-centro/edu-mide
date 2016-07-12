@@ -91,9 +91,13 @@
 .mide-page .phone-contact-icon {
   background: url('../images/phone-contact-icon.png') no-repeat center center / contain;
 }
-
 .mide-page .contact-view b {
   margin: 0 0 0 15px;
+}
+@media (max-width: 940px) {
+  .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
+    width: 100% !important;
+  }
 }
 @media (min-width: 768px) {
   .mide-page .contact-view {
