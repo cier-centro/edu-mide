@@ -1,4 +1,28 @@
-
+/*bacground del sitio*/
+.mide-page .main_container {
+	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midebodybg.jpg') repeat;
+}
+.mide-page .section_content{background-color:#FFFFFF;}
+/*menú segundario*/
+.mide-page .mide-second-menu{margin:0px;}
+.mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a{
+	display:block;
+	height:142.5px;
+	width:100%;
+	cursor:pointer;
+}
+.mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{
+	display:block;
+	height:87.5px;
+	width:100%;
+	cursor:pointer;
+}
+.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat;}
+.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat;}
+.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat;}
+.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat;}
+.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable{background-position: 0 -142px;background-color:#808080;}
+/**/
 .mide-page .mide-header-logo{
     height: 80px;
     background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-header-logo.png') no-repeat center;
@@ -62,7 +86,42 @@
   color: #fff !important;
 }
 .mide-page .panels-flexible-region {
-    background: white;
+  background: white;
+}
+.mide-page .socializations-view .view-content > div {
+  width: 50%;
+  float: left;
+  padding: 15px;
+}
+.mide-page .socializations-view .views-field-field-imagen-del-articulo > div {
+  width: 50%;
+  float: left;
+}
+.mide-page .socializations-view .views-field-created span,
+.mide-page .socializations-view .views-field-title span {
+  color: #5A4378;
+	float: right;
+  width: 47%;
+}
+.mide-page .socializations-view .views-field-body p {
+  float: left;
+  margin: 10px 0 !important;
+}
+.mide-page .socializations-view .views-field-body p a {
+  display: block;
+  text-align: right;
+}
+.mide-page .socializations-view .views-field-title span {
+	font-size: 20px;
+	font-weight: bold;
+}
+.mide-page .faq-mide-accordion a {
+  text-align: left;
+}
+.mide-page .faq-mide-accordion .ui-state-active a {
+  color: black;
+  background-color: #E9E9E9;
+  font-weight: bold;
 }
 .mide-page .contact-view {
   background: #EFEFF0;
@@ -94,22 +153,14 @@
 .mide-page .contact-view b {
   margin: 0 0 0 15px;
 }
-.mide-page .faq-mide-accordion a {
-  text-align: left;
-}
-.mide-page .faq-mide-accordion .ui-state-active a {
-    color: black;
-    background-color: #E9E9E9;
-    font-weight: bold;
-}
-@media (max-width: 940px) {
-  .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
-    width: 100% !important;
-  }
-}
 @media (min-width: 768px) {
   .mide-page .contact-view {
     display: flex;
     align-items: center;
+  }
+}
+@media (max-width: 940px) {
+  .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
+    width: 100% !important;
   }
 }
