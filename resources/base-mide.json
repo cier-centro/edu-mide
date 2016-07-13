@@ -1,0 +1,47 @@
+[
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12345,
+        "nameUniversity": "UNIVERSIDAD DE LOS ANDES",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 1
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 123456,
+        "nameUniversity": "UNIVERSIDAD NACIONAL DE COLOMBIA",
+        "sector": "OFICIAL",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 2
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 234567,
+        "nameUniversity": "UNIVERSIDAD DEL TOLIMA",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 3
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 345678,
+        "nameUniversity": "UNIVERSIDAD DEL NORTE",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 4
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 456789,
+        "nameUniversity": "PONTIFICIA UNIVERSIDAD JAVERIANA",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 5
+    }
+]
