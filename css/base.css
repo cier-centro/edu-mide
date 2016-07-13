@@ -90,7 +90,7 @@
 .mide-page .socializations-view .view-content > div {
   width: 50%;
   float: left;
-  margin: 15px;
+  padding: 15px;
 }
 .mide-page .faq-mide-accordion a {
   text-align: left;
