@@ -9,7 +9,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
     $scope.search = function() {
         var obj = {content: null};
 
-        $http.get('Resources/base-mide.json').success(function(data) {
+        $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function(data) {
             obj.content = data;
 
             angular.forEach(obj.content, function(mide) {
@@ -23,8 +23,5 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             });
         });
     };
-    
-  
-    
 });
 
