@@ -94,6 +94,14 @@
 .mide-page .contact-view b {
   margin: 0 0 0 15px;
 }
+.mide-page .faq-mide-accordion a {
+  text-align: left;
+}
+.mide-page .faq-mide-accordion .ui-state-active a {
+    color: black;
+    background-color: #E9E9E9;
+    font-weight: bold;
+}
 @media (max-width: 940px) {
   .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100% !important;
