@@ -93,6 +93,28 @@
   float: left;
   padding: 15px;
 }
+.mide-page .views-field-field-imagen-del-articulo > div {
+  width: 50%;
+  float: left;
+}
+.mide-page .views-field-created span,
+.mide-page .views-field-title span {
+  color: #5A4378;
+	float: right;
+  width: 47%;
+}
+.mide-page .views-field-body p {
+  float: left;
+  margin: 10px 0 !important;
+}
+.mide-page .views-field-body p a {
+  display: block;
+  text-align: right;
+}
+.mide-page .views-field-title span {
+	font-size: 20px;
+	font-weight: bold;
+}
 .mide-page .faq-mide-accordion a {
   text-align: left;
 }
