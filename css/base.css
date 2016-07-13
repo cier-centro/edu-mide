@@ -1,5 +1,5 @@
 /*bacground del sitio*/
-.mide-page{
+.mide-page .main_container {
 	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midebodybg.jpg') repeat;
 }
 /*menú segundario*/
@@ -89,6 +89,8 @@
 }
 .mide-page .socializations-view .view-content > div {
   width: 50%;
+  float: left;
+  margin: 15px;
 }
 .mide-page .faq-mide-accordion a {
   text-align: left;
