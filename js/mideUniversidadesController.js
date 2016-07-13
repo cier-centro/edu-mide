@@ -4,9 +4,10 @@ app = angular.module('mideUniversidades', []);
 
 app.controller('mideUniversidadesController', function($scope, $http) {
 
-    $scope.universities = [];
-
     $scope.search = function() {
+        
+        $scope.universities = [];
+        
         var obj = {content: null};
 
         $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function(data) {
