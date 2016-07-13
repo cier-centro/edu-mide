@@ -2,6 +2,7 @@
 .mide-page .main_container {
 	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midebodybg.jpg') repeat;
 }
+.mide-page .section_content{background-color:#FFFFFF;}
 /*menú segundario*/
 .mide-page .mide-second-menu{margin:0px;}
 .mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a{
@@ -90,7 +91,7 @@
 .mide-page .socializations-view .view-content > div {
   width: 50%;
   float: left;
-  margin: 15px;
+  padding: 15px;
 }
 .mide-page .faq-mide-accordion a {
   text-align: left;
