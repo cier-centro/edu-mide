@@ -86,8 +86,6 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                         filterSearch = 1;
                 }
                 
-                alert(filterSearch+" = "+numberFilterActive);
-                
                 if(filterSearch == numberFilterActive){
                     $scope.universities.push(arrayObject);
                 }
