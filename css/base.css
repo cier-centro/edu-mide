@@ -89,9 +89,13 @@
   background: white;
 }
 .mide-page .socializations-view .view-content > div {
-  width: 50%;
+  width: 100%;
   float: left;
   padding: 15px;
+  background: #EFEFF0;
+  margin: 1%;
+  border-radius: 15px;
+  height: 330px;
 }
 .mide-page .socializations-view .views-field-field-imagen-del-articulo > div {
   width: 50%;
@@ -100,16 +104,28 @@
 .mide-page .socializations-view .views-field-created span,
 .mide-page .socializations-view .views-field-title span {
   color: #5A4378;
-	float: right;
   width: 47%;
+}
+.mide-page .socializations-view .views-field-title span {
+  float: right;
+}
+.mide-page .socializations-view .views-field-created span {
+  width: 100%;
+  padding: 0 0 5px 53%;
+  display: block;
 }
 .mide-page .socializations-view .views-field-body p {
   float: left;
   margin: 10px 0 !important;
+  overflow: scroll;
+  height: 150px;
 }
 .mide-page .socializations-view .views-field-body p a {
   display: block;
   text-align: right;
+  color: #5A4378;
+  text-decoration: underline;
+  font-size: 18px;
 }
 .mide-page .socializations-view .views-field-title span {
 	font-size: 20px;
@@ -157,6 +173,9 @@
   .mide-page .contact-view {
     display: flex;
     align-items: center;
+  }
+  .mide-page .socializations-view .view-content > div {
+    width: 48%;
   }
 }
 @media (max-width: 940px) {
