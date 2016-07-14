@@ -88,6 +88,10 @@
 .mide-page .panels-flexible-region {
   background: white;
 }
+.mide-page .mide-content-view, .mide-page .socializations-view,
+.mide-page .faq-mide-accordion, .mide-page .socializations-content {
+	padding: 0 15px 15px;
+}
 .mide-page .socializations-view .view-content > div {
   width: 100%;
   float: left;
@@ -100,6 +104,7 @@
 .mide-page .socializations-view .views-field-field-imagen-del-articulo > div {
   width: 50%;
   float: left;
+	font-weight: 500;
 }
 .mide-page .socializations-view .views-field-created span,
 .mide-page .socializations-view .views-field-title span {
@@ -117,7 +122,7 @@
 .mide-page .socializations-view .views-field-body p {
   float: left;
   margin: 10px 0 !important;
-  overflow: scroll;
+  overflow-y: scroll;
   height: 150px;
 }
 .mide-page .socializations-view .views-field-body p a {
@@ -130,6 +135,31 @@
 .mide-page .socializations-view .views-field-title span {
 	font-size: 20px;
 	font-weight: bold;
+}
+.mide-page .socializations-content .views-field-title {
+	color: #5A5A5E;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+.mide-page .socializations-content .views-field-created span {
+	color: #5A4378;
+	font-weight: 500;
+	background: url('../images/clock-icon.png') no-repeat 0% center / contain;
+	padding: 0 0 0 25px;
+}
+.mide-page .socializations-content .views-field-field-imagen-del-articulo > div {
+	width: 100%;
+	margin: 20px 0;
+	overflow: hidden;
+	background: black;
+	height: 270px;
+	display: flex;
+  align-items: center;
+}
+.mide-page .socializations-content .views-field-field-imagen-del-articulo img {
+	width: 100%;
 }
 .mide-page .faq-mide-accordion a {
   text-align: left;
@@ -178,8 +208,11 @@
     width: 48%;
   }
 }
-@media (max-width: 940px) {
+@media (max-width: 955px) {
   .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100% !important;
   }
+	.mide-page .socializations-content .views-field-field-imagen-del-articulo > div {
+	height: 25vw;
+	}
 }
