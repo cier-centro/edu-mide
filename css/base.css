@@ -17,11 +17,17 @@
 	width:100%;
 	cursor:pointer;
 }
-.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat;}
-.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat;}
-.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat;}
-.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat;}
-.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable{background-position: 0 -142px;background-color:#808080;}
+.mide-page .mide-second-menu > div {
+	border: 2px solid #B7B8BC;
+	padding: 0;
+}
+.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat; border-right: 25px solid #5ABABB;}
+.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 25px solid #F35F64;}
+.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat; border-right: 25px solid #F4A558;}
+.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat; border-right: 25px solid #459F88;}
+.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
+.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
+.mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
 /**/
 .mide-page .mide-header-logo{
     height: 80px;
@@ -32,11 +38,14 @@
 	background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-banner-bg.jpg') no-repeat top left;
 	/*height:120px;*/
 }
+.mide-page .section_container.no_left_sidebar .section_content {
+	background: white !important;
+}
 .mide-page .mide-slogan{
 	padding: 30px 10px 10px 10px;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
 	color:#564577;
 }
 .mide-page .mide-page-banner span{
@@ -214,6 +223,22 @@
 	height: auto;
 }
 }
+
+@media (min-width: 992px) {
+	.mide-page .mide-second-menu > div:nth-child(even) {
+		margin-left: -2px;
+	}
+	.mide-page .mide-second-menu > div:last-child,
+	.mide-page .mide-second-menu > div:nth-last-child(2){
+		margin-top: -2px;
+	}
+}
+@media (max-width: 992px) {
+	.mide-page .mide-second-menu > div:not(:first-child) {
+		margin-top: -2px;
+	}
+}
+
 @media (max-width: 955px) {
   .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100% !important;
