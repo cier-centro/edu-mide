@@ -108,7 +108,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             var nameUniversity = document.getElementById('nameUniversity').value;
             
             if(nameUniversity == ""){
-                alert("Favor seleccione al menos un criterio de busqueda.");
+                alert("Favor ingrese palabra clave.");
                 return false;
             }
             
