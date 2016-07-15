@@ -17,11 +17,17 @@
 	width:100%;
 	cursor:pointer;
 }
-.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat;}
-.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat;}
-.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat;}
-.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat;}
-.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable{background-position: 0 -142px;background-color:#808080;}
+.mide-page .mide-second-menu > div {
+	border: 2px solid #B7B8BC;
+	padding: 0;
+}
+.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat; border-right: 25px solid #5ABABB;}
+.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 25px solid #F35F64;}
+.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat; border-right: 25px solid #F4A558;}
+.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat; border-right: 25px solid #459F88;}
+.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
+.mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
+.mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
 /**/
 .mide-page .mide-header-logo{
     height: 80px;
@@ -32,11 +38,14 @@
 	background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-banner-bg.jpg') no-repeat top left;
 	/*height:120px;*/
 }
+.mide-page .section_container.no_left_sidebar .section_content {
+	background: white !important;
+}
 .mide-page .mide-slogan{
 	padding: 30px 10px 10px 10px;
-    font-size: 18px;
-    text-align: center;
-    font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
 	color:#564577;
 }
 .mide-page .mide-page-banner span{
@@ -88,6 +97,10 @@
 .mide-page .panels-flexible-region {
   background: white;
 }
+.mide-page .mide-content-view, .mide-page .socializations-view,
+.mide-page .faq-mide-accordion, .mide-page .socializations-content {
+	padding: 0 15px 15px;
+}
 .mide-page .socializations-view .view-content > div {
   width: 100%;
   float: left;
@@ -95,11 +108,12 @@
   background: #EFEFF0;
   margin: 1%;
   border-radius: 15px;
-  height: 330px;
+  height: 310px;
 }
 .mide-page .socializations-view .views-field-field-imagen-del-articulo > div {
   width: 50%;
   float: left;
+	font-weight: 500;
 }
 .mide-page .socializations-view .views-field-created span,
 .mide-page .socializations-view .views-field-title span {
@@ -117,8 +131,8 @@
 .mide-page .socializations-view .views-field-body p {
   float: left;
   margin: 10px 0 !important;
-  overflow: scroll;
-  height: 150px;
+  overflow-y: scroll;
+  height: 100px;
 }
 .mide-page .socializations-view .views-field-body p a {
   display: block;
@@ -130,6 +144,31 @@
 .mide-page .socializations-view .views-field-title span {
 	font-size: 20px;
 	font-weight: bold;
+}
+.mide-page .socializations-content .views-field-title {
+	color: #5A5A5E;
+	font-size: 30px;
+	font-weight: 600;
+	margin: 10px 0;
+	line-height: 1.2;
+}
+.mide-page .socializations-content .views-field-created span {
+	color: #5A4378;
+	font-weight: 500;
+	background: url('../images/clock-icon.png') no-repeat 0% center / contain;
+	padding: 0 0 0 25px;
+}
+.mide-page .socializations-content .views-field-field-imagen-del-articulo > div {
+	width: 100%;
+	margin: 20px 0;
+	overflow: hidden;
+	background: black;
+	height: 270px;
+	display: flex;
+  align-items: center;
+}
+.mide-page .socializations-content .views-field-field-imagen-del-articulo img {
+	width: 100%;
 }
 .mide-page .faq-mide-accordion a {
   text-align: left;
@@ -178,8 +217,45 @@
     width: 48%;
   }
 }
-@media (max-width: 940px) {
+@media (max-width: 767px) {
+.mide-page .socializations-view .view-content > div,
+.mide-page .socializations-view .views-field-body p {
+	height: auto;
+}
+}
+
+@media (min-width: 992px) {
+	.mide-page .mide-second-menu > div:nth-child(even) {
+		margin-left: -2px;
+	}
+	.mide-page .mide-second-menu > div:last-child,
+	.mide-page .mide-second-menu > div:nth-last-child(2){
+		margin-top: -2px;
+	}
+}
+@media (max-width: 992px) {
+	.mide-page .mide-second-menu > div:not(:first-child) {
+		margin-top: -2px;
+	}
+}
+
+@media (max-width: 955px) {
   .mide-page #microsite_panel .pane-content > .menu li.parent_menu {
     width: 100% !important;
   }
+	.mide-page .socializations-content .views-field-field-imagen-del-articulo > div {
+	height: 25vw;
+	}
+}
+@media (min-width: 956px) {
+	.mide-page .socializations-view .view-content > div {
+		height: 270px;
+	}
+}
+@media (max-width: 1024px) {
+	.mide-page .section_container.no_left_sidebar .section_content {
+		 width: 100% !important;
+		 margin: 0 !important;
+		 padding: 0 3% !important;
+	}
 }
