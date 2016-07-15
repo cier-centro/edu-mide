@@ -1,8 +1,8 @@
 [
     {
         "productMide": "UNIVERSIDADES",
-        "codeIes": 12345,
-        "nameUniversity": "UNIVERSIDAD DE LOS ANDES",
+        "codeIes": 12385,
+        "nameUniversity": "UNIVERSIDAD DE LOS ANDES ",
         "sector": "PRIVADA",
         "typeUniversity": "UNIVERSIDAD",
         "isAccredited": "SI",
@@ -10,7 +10,7 @@
     },
     {
         "productMide": "UNIVERSIDADES",
-        "codeIes": 123456,
+        "codeIes": 12386,
         "nameUniversity": "UNIVERSIDAD NACIONAL DE COLOMBIA",
         "sector": "OFICIAL",
         "typeUniversity": "UNIVERSIDAD",
@@ -19,7 +19,7 @@
     },
     {
         "productMide": "UNIVERSIDADES",
-        "codeIes": 234567,
+        "codeIes": 12387,
         "nameUniversity": "UNIVERSIDAD DEL TOLIMA",
         "sector": "PRIVADA",
         "typeUniversity": "UNIVERSIDAD",
@@ -28,7 +28,7 @@
     },
     {
         "productMide": "UNIVERSIDADES",
-        "codeIes": 345678,
+        "codeIes": 12388,
         "nameUniversity": "UNIVERSIDAD DEL NORTE",
         "sector": "PRIVADA",
         "typeUniversity": "UNIVERSIDAD",
@@ -37,11 +37,146 @@
     },
     {
         "productMide": "UNIVERSIDADES",
-        "codeIes": 456789,
+        "codeIes": 12389,
         "nameUniversity": "PONTIFICIA UNIVERSIDAD JAVERIANA",
         "sector": "PRIVADA",
         "typeUniversity": "UNIVERSIDAD",
-        "isAccredited": "NO",
+        "isAccredited": "SI",
         "position": 5
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12390,
+        "nameUniversity": "UNIVERSIDAD GRAN COLOMBIANA",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 6
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12391,
+        "nameUniversity": "UNIVERSIDAD PARA TODOS",
+        "sector": "OFICIAL",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "NO",
+        "position": 7
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12392,
+        "nameUniversity": "UNIVERSIDAD DE TUNJA",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 8
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12393,
+        "nameUniversity": "UNIVERSIDAD DEL IBAGE",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 9
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12394,
+        "nameUniversity": "PONTIFICIA UNIVERSIDAD DEL VALLE",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "NO",
+        "position": 10
+    },
+    {
+        "productMide": "UNIVERSIDADES",
+        "codeIes": 12395,
+        "nameUniversity": "UNIVERSIDAD DE LOS FLORES",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 11
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12396,
+        "nameUniversity": "UNIVERSIDAD DE CALI",
+        "sector": "OFICIAL",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 12
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12397,
+        "nameUniversity": "UNIVERSIDAD DE MEDELLIN",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 13
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12398,
+        "nameUniversity": "UNIVERSIDAD DEL NORTE DEL VALLE",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 14
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12399,
+        "nameUniversity": "PONTIFICIA UNIVERSIDAD PACIFICO",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 15
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12400,
+        "nameUniversity": "UNIVERSIDAD DEL PACIFICO NORTE",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 16
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12401,
+        "nameUniversity": "UNIVERSIDAD PLAN NACIONAL",
+        "sector": "OFICIAL",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 17
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12402,
+        "nameUniversity": "UNIVERSIDAD DE LAS MARIAS",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 18
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12403,
+        "nameUniversity": "UNIVERSIDAD DEL PACICO",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 19
+    },
+    {
+        "productMide": "INSTITUCION UNIVERSITARIA",
+        "codeIes": 12404,
+        "nameUniversity": "PONTIFICIA UNIVERSIDAD DE LA REGION",
+        "sector": "PRIVADA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 20
     }
 ]
