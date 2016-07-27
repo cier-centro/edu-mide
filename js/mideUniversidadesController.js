@@ -129,4 +129,21 @@ app.controller('mideUniversidadesController', function($scope, $http) {
         });
     };
     
+    $scope.namesUniversities = [];
+
+    var obj = {content: null};
+    $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function (data) {
+        obj.content = data;
+        angular.forEach(obj.content, function (mide) {
+            $scope.namesUniversities.push({
+                codeIes: mide.codeIes,
+                nameUniversity: mide.nameUniversity
+            });
+        });
+    });
+    
+    $scope.constructIp = function($codeIes) {
+        window.location="http://aprende.colombiaaprende.edu.co/es/mide/va-" + $codeIes;
+    };
+    
 });
