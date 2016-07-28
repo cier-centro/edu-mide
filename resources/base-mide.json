@@ -178,5 +178,14 @@
         "typeUniversity": "UNIVERSIDAD",
         "isAccredited": "SI",
         "position": 20
+    },
+    {
+        "productMide": "EJEMPLO",
+        "codeIes": 11111,
+        "nameUniversity": "EJEMPLO",
+        "sector": "PUBLICA",
+        "typeUniversity": "UNIVERSIDAD",
+        "isAccredited": "SI",
+        "position": 21
     }
 ]
