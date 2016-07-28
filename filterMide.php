@@ -4,14 +4,17 @@
 <script type="text/javascript" src="js/mideUniversidadesController.js"></script>
 
 <div ng-module="mideUniversidades" >
-    <div ng-controller="mideUniversidadesController">
-
-        <div id="dvSearchNameUniversities">
-            <label>Listado de universidades: </label>
-            <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity">
-            <button id="btnSearch" ng-click="searchByNameUniversities();">Buscar</button>
+  <div ng-controller="mideUniversidadesController" class="form-horizontal">
+    <div class="row">
+      <div id="dvSearchNameUniversities" class="form-group">
+        <h4>Listado de universidades</h4>
+        <label class="col-sm-2 control-label">Buscar institución</label>
+        <div class="col-sm-10">
+          <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
+          <button id="btnSearch" ng-click="searchByNameUniversities();">Buscar</button>
         </div>
-
+      </div>
+    </div>
         <div id="dvSearchOther">
             <table class="tbSearchUniversities">
 
@@ -47,7 +50,7 @@
                     <td>
                         <label>Grupo de clasificación: </label>
                         <select id="classificationGroup" ng-model="fieldSearch.classificationGroup">
-                            <option value="">-- Seleccione --</option> 
+                            <option value="">-- Seleccione --</option>
                             <option value="Pregrado">Pregrado</option>
                             <option value="Maestria">Maestria</option>
                             <option value="Doctorado">Doctorado</option>
@@ -93,13 +96,13 @@
         </table>
 
         <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
-        
+
         <div id="seccionForSearchAddValue">
             <b>Valor agregado: </b>
             <br>
             <label>Seleccione la Universidad: </label>
             <select id="namesUniversities" ng-model="SelectedData">
-                <option ng-repeat="item in namesUniversities" ng-selected="{{item === SelectedData}}" value="{{item.codeIes}}">{{item.codeIes}} - {{item.nameUniversity}}</option> 
+                <option ng-repeat="item in namesUniversities" ng-selected="{{item === SelectedData}}" value="{{item.codeIes}}">{{item.codeIes}} - {{item.nameUniversity}}</option>
             </select>
             <button id="btnSearch" ng-click="constructIp(SelectedData);">Buscar</button>
             <br>
