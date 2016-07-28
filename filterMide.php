@@ -5,16 +5,14 @@
 
 <div ng-module="mideUniversidades" >
   <div ng-controller="mideUniversidadesController" class="form-horizontal">
-    <div class="row">
       <div id="dvSearchNameUniversities" class="form-group">
         <h4>Listado de universidades</h4>
         <label class="col-sm-2 control-label">Buscar institución</label>
-        <div class="col-sm-10">
+        <div class="col-sm-9">
           <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
-          <button id="btnSearch" ng-click="searchByNameUniversities();">Buscar</button>
         </div>
+        <button id="btnSearch" ng-click="searchByNameUniversities();" class="btn btn-default col-sm-1">Buscar</button>
       </div>
-    </div>
         <div id="dvSearchOther">
             <table class="tbSearchUniversities">
 

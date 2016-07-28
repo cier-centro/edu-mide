@@ -99,7 +99,7 @@
 }
 .mide-page .mide-content-view, .mide-page .socializations-view,
 .mide-page .faq-mide-accordion, .mide-page .socializations-content {
-	/*padding: 0 15px 15px;*/
+	padding: 0 15px 15px;
 }
 .mide-page .socializations-view .view-content > div {
   width: 100%;
