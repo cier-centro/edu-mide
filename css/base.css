@@ -260,7 +260,7 @@
 	}
 }
 @media (min-width: 1024px) {
-	.mide-page .panels-flexible-region{
+	.mide-page .section_content{
 		width: 1024px;
 	}
 }
