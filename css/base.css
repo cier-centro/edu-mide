@@ -5,6 +5,10 @@
 .mide-page .panels-flexible-region-49-center{
 	width: 100%;
 }
+.mide-page .section_content{
+	-webkit-box-shadow: 0 0 10px 2px rgba(0,0,0,0.4);
+	box-shadow: 0 0 10px 2px rgba(0,0,0,0.4);
+}
 .mide-page .section_content{background-color:#FFFFFF;}
 /*menú segundario*/
 .mide-page .mide-second-menu{margin:0px;}
