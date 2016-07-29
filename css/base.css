@@ -2,6 +2,9 @@
 .mide-page .main_container {
 	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midebodybg.jpg') repeat;
 }
+.mide-page .panels-flexible-region-49-center{
+	width: 100%;
+}
 .mide-page .section_content{background-color:#FFFFFF;}
 /*menú segundario*/
 .mide-page .mide-second-menu{margin:0px;}
@@ -257,5 +260,10 @@
 		 width: 100% !important;
 		 margin: 0 !important;
 		 padding: 0 3% !important;
+	}
+}
+@media (min-width: 1024px) {
+	.mide-page .section_content{
+		width: 1024px;
 	}
 }
