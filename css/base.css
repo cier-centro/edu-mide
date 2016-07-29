@@ -92,6 +92,9 @@
 }
 .mide-page .breadcrumb{
   margin-bottom: 0px;
+	height: 30px;
+	line-height: 31px;
+	margin-left: 0px;
 }
 .mide-page .parent_menu .active {
   background-color: #ea7474;
