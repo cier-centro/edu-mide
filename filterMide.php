@@ -3,65 +3,61 @@
 <script type="text/javascript" src="js/dirPagination.js"></script>
 <script type="text/javascript" src="js/mideUniversidadesController.js"></script>
 
-<div ng-module="mideUniversidades" >
-  <div ng-controller="mideUniversidadesController" class="form-horizontal">
+<div ng-module="mideUniversidades" class="container-fluid">
+  <div class="row search-filters">
+    <div ng-controller="mideUniversidadesController" class="form-horizontal">
       <div id="dvSearchNameUniversities" class="form-group">
         <h4>Listado de universidades</h4>
-        <label class="col-sm-2 control-label">Buscar institución</label>
-        <div class="col-sm-9">
+        <label class="col-md-2 control-label">Buscar institución</label>
+        <div class="col-sm-8">
           <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
         </div>
-        <button id="btnSearch" ng-click="searchByNameUniversities();" class="btn btn-default col-sm-1">Buscar</button>
+        <button class="btn btn-default col-sm-2" id="btnSearch" ng-click="searchByNameUniversities();" >Buscar</button>
       </div>
-        <div id="dvSearchOther">
-            <table class="tbSearchUniversities">
-
-                <tr>
-                    <td>
-                        <label>Acreditadas: </label>
-                        <select id="isAccredited" ng-model="fieldSearch.isAccredited">
-                            <option value="">-- Seleccione --</option>
-                            <option value="SI">IES acreditadas</option>
-                            <option value="NO">IES no acreditada</option>
-                        </select>
-                    </td>
-
-                    <td>
-                        <label>Tipo de institución: </label>
-                        <select id="typeUniversity" ng-model="fieldSearch.typeUniversity">
-                            <option value="">-- Seleccione --</option>
-                            <option value="UNIVERSIDAD">Universidad</option>
-                            <option value="INSTITUCION UNIVERSITARIA">Institución universitaria</option>
-                        </select>
-                    </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <label>Sector: </label>
-                        <select id="sector" ng-model="fieldSearch.sector">
-                            <option value="">-- Seleccione --</option>
-                            <option value="OFICIAL">IES públicas</option>
-                            <option value="PRIVADA">IES no públicas</option>
-                        </select>
-                    </td>
-                    <td>
-                        <label>Grupo de clasificación: </label>
-                        <select id="classificationGroup" ng-model="fieldSearch.classificationGroup">
-                            <option value="">-- Seleccione --</option>
-                            <option value="Pregrado">Pregrado</option>
-                            <option value="Maestria">Maestria</option>
-                            <option value="Doctorado">Doctorado</option>
-                            <option value="Especializadas">Especializadas</option>
-                        </select>
-                    </td>
-                </tr>
-
-            </table>
-
-            <button id="btnSearch" ng-click="searchByOtherFields();">Buscar</button>
-
-        </div>
+    </div>
+  </div>
+  <div id="dvSearchOther" class="row search-filters">
+    <h4>Criterios de busqueda</h4>
+    <div class="col-md-5">
+      <label class="control-label">Acreditadas</label>
+      <select id="isAccredited" ng-model="fieldSearch.isAccredited" class="form-control">
+        <option value="">-- Seleccione --</option>
+        <option value="SI">IES acreditadas</option>
+        <option value="NO">IES no acreditada</option>
+      </select>
+    </div>
+    <div class="col-md-5">
+      <label class="control-label">Tipo de institución: </label>
+      <select id="typeUniversity" ng-model="fieldSearch.typeUniversity" class="form-control">
+        <option value="">-- Seleccione --</option>
+        <option value="UNIVERSIDAD">Universidad</option>
+        <option value="INSTITUCION UNIVERSITARIA">Institución universitaria</option>
+      </select>
+    </div>
+    <div class="row search-filters">
+      <h4>Criterios de busqueda</h4>
+      <div class="col-md-5">
+        <label class="control-label">Sector:</label>
+        <select id="sector" ng-model="fieldSearch.sector" class="form-control">
+          <option value="">-- Seleccione --</option>
+          <option value="OFICIAL">IES públicas</option>
+          <option value="PRIVADA">IES no públicas</option>
+        </select>
+      </div>
+      <div class="col-md-5">
+        <label class="control-label">Grupo de clasificación: </label>
+        <select id="classificationGroup" ng-model="fieldSearch.classificationGroup" class="form-control">
+          <option value="">-- Seleccione --</option>
+          <option value="Pregrado">Pregrado</option>
+          <option value="Maestria">Maestria</option>
+          <option value="Doctorado">Doctorado</option>
+          <option value="Especializadas">Especializadas</option>
+        </select>
+      </div>
+      <button id="btnSearch" ng-click="searchByOtherFields();" class="btn btn-default col-sm-2">Buscar</button>
+    </div>
+  </div>
+</div>
 
         <table class="tbUniversities">
             <thead>
