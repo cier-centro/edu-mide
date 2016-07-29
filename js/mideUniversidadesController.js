@@ -18,7 +18,8 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     nameUniversity: mide.nameUniversity,
                     sector: mide.sector,
                     typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited
+                    isAccredited: mide.isAccredited,
+                    codeIes: mide.codeIes
                 });
             });
         });
@@ -63,7 +64,8 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     nameUniversity: mide.nameUniversity,
                     sector: mide.sector,
                     typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited
+                    isAccredited: mide.isAccredited,
+                    codeIes: mide.codeIes
                 };
                 
                 if(isAccredited){
@@ -119,7 +121,8 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     nameUniversity: mide.nameUniversity,
                     sector: mide.sector,
                     typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited
+                    isAccredited: mide.isAccredited,
+                    codeIes: mide.codeIes
                 };
                 
                 if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1)
