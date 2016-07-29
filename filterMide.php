@@ -9,11 +9,16 @@
             <div  class="form-horizontal">
                 <div id="dvSearchNameUniversities" class="form-group">
                     <h4>Listado de universidades</h4>
-                    <label class="col-md-2 control-label">Buscar institución</label>
-                    <div class="col-sm-8">
+                    <div class="col-md-2 ">
+                      <label class="control-label">Buscar institución</label>
+                    </div>
+                    <div class="col-sm-7">
                         <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
                     </div>
-                    <button class="btn btn-default col-sm-2" id="btnSearch" ng-click="searchByNameUniversities();" >Buscar</button>
+                    <div class="col-md-2 ">
+                      <button class="btn btn-default" id="btnSearch" ng-click="searchByNameUniversities();" >Buscar</button>
+                    </div>
+
                 </div>
             </div>
         </div>
