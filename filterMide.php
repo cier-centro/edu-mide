@@ -24,7 +24,7 @@
         </div>
         <div id="dvSearchOther" class="row search-filters">
             <h4>Criterios de busqueda</h4>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <label class="control-label">Acreditadas</label>
                 <select id="isAccredited" ng-model="fieldSearch.isAccredited" class="form-control">
                     <option value="">-- Seleccione --</option>
@@ -32,7 +32,7 @@
                     <option value="NO">IES no acreditada</option>
                 </select>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4 col-md-offset-1">
                 <label class="control-label">Tipo de institución: </label>
                 <select id="typeUniversity" ng-model="fieldSearch.typeUniversity" class="form-control">
                     <option value="">-- Seleccione --</option>
@@ -40,9 +40,9 @@
                     <option value="INSTITUCION UNIVERSITARIA">Institución universitaria</option>
                 </select>
             </div>
+
             <div class="row search-filters">
-                <h4>Criterios de busqueda</h4>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <label class="control-label">Sector:</label>
                     <select id="sector" ng-model="fieldSearch.sector" class="form-control">
                         <option value="">-- Seleccione --</option>
@@ -50,7 +50,7 @@
                         <option value="PRIVADA">IES no públicas</option>
                     </select>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4 col-md-offset-1">
                     <label class="control-label">Grupo de clasificación: </label>
                     <select id="classificationGroup" ng-model="fieldSearch.classificationGroup" class="form-control">
                         <option value="">-- Seleccione --</option>
@@ -60,7 +60,9 @@
                         <option value="Especializadas">Especializadas</option>
                     </select>
                 </div>
-                <button id="btnSearch" ng-click="searchByOtherFields();" class="btn btn-default col-sm-2">Buscar</button>
+                <div class="col-sm-2">
+                  <button id="btnSearch" ng-click="searchByOtherFields();" class="btn btn-default">Buscar</button>
+                </div>
             </div>
         </div>
 
