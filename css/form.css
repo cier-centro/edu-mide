@@ -40,6 +40,7 @@
 }
 .mide-page .table thead th{
 	color: #ffffff;
+	text-shadow:rgba(255,255,255,0) 1px 1px 0;
 }
 .mide-page .table thead tr:first-child{
 	background-color:#727176;
