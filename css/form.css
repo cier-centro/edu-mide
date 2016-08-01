@@ -5,7 +5,14 @@
 .mide-page .oter-filters #btnSearch{
 	margin-top: 25px;
 }
-.mide-page .search-filters {background-color: #EFEFF1;}
+.mide-page .search-filters {
+	background-color: #EFEFF1;
+	padding: 10px 0 10px 0px;
+	margin-bottom: 10px;
+	border-radius: 8px 8px 8px 8px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+}
 .mide-page .search-filters h5{
 	padding-left: 10px;
 	font-weight: bold;
