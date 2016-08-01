@@ -63,6 +63,6 @@
 .mide-page .table tbody td{
 	border-right: 1px solid #898989;
 }
-.mide-page .table tbody td:last-child{
+.mide-page .table td:last-child{
 	border-right:none;
 }
