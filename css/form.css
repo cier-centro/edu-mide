@@ -26,3 +26,11 @@ color: #ffffff;
 background-color: #53B7B7;
 border: solid 1px #5D8A8B;
 }
+.mide-page .search-filters .btn:hover{
+	-webkit-transition: all 100ms ease-out;
+	-moz-transition: all 100ms ease-out;
+	-ms-transition: all 100ms ease-out;
+	-o-transition: all 100ms ease-out;
+	transition: all 100ms ease-out;
+	background-color: #5D8A8B;
+}
