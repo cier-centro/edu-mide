@@ -36,7 +36,13 @@
 }
 .mide-page .table thead{
 	background-color:#C5C5C5;
+	color: #ffffff;
 }
 .mide-page .table thead tr:first-child{
 	background-color:#727176;
+}
+.mide-page .table thead tr:first-child th:first-child{
+	border-radius: 5px 0px 0px 0px;
+	-moz-border-radius: 5px 0px 0px 0px;
+	-webkit-border-radius: 5px 0px 0px 0px;
 }

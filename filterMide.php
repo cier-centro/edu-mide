@@ -78,11 +78,11 @@
                 </tr>
 
                 <tr>
-                    <th></th>
-                    <th><input type="text" ng-model="filters.nameUniversity"></th>
-                    <th><input type="text" ng-model="filters.sector"></th>
-                    <th><input type="text" ng-model="filters.typeUniversity"></th>
-                    <th><input type="text" ng-model="filters.isAccredited"></th>
+                    <td></td>
+                    <td><input type="text" ng-model="filters.nameUniversity"></td>
+                    <td><input type="text" ng-model="filters.sector"></td>
+                    <td><input type="text" ng-model="filters.typeUniversity"></td>
+                    <td><input type="text" ng-model="filters.isAccredited"></td>
                 </tr>
             </thead>
 
