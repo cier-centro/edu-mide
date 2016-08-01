@@ -38,6 +38,8 @@
 	background-color:#C5C5C5;
 	color: #ffffff;
 }
+.mide-page .table thead td{background-color:#C5C5C5;}
+.mide-page .table thead td input{width: 100%;}
 .mide-page .table thead th{
 	color: #ffffff;
 	text-shadow:rgba(255,255,255,0) 1px 1px 0;
