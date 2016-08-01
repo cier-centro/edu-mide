@@ -2,6 +2,14 @@
 	margin-right: 0px;
 	margin-left: 0px;
 }
-.oter-filters #btnSearch{
+.mide-page .oter-filters #btnSearch{
 	margin-top: 25px;
+}
+.mide-page .search-filters {background-color: #EFEFF1;}
+.mide-page .search-filters h5{
+	padding-left: 10px;
+	font-weight: bold;
+}
+.mide-page .search-filters label{
+  font-weight: normal;
 }
