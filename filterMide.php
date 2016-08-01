@@ -67,7 +67,7 @@
         </div>
 
 
-        <table class="tbUniversities">
+        <table class="tbUniversities table table-hover" >
             <thead>
                 <tr>
                     <th>Puesto</th>

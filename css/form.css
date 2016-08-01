@@ -7,7 +7,7 @@
 }
 .mide-page .search-filters {
 	background-color: #EFEFF1;
-	padding: 10px 0 10px 0px;
+	padding: 0px 0px 4px 0px;
 	margin-bottom: 10px;
 	border-radius: 8px 8px 8px 8px;
 	-moz-border-radius: 8px 8px 8px 8px;
@@ -32,5 +32,5 @@ border: solid 1px #5D8A8B;
 	-ms-transition: all 100ms ease-out;
 	-o-transition: all 100ms ease-out;
 	transition: all 100ms ease-out;
-	background-color: #5D8A8B;
+	background-color: #308484;
 }
