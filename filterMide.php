@@ -5,10 +5,10 @@
 
 <div ng-module="mideUniversidades" >
     <div ng-controller="mideUniversidadesController">
-        <div class="row search-filters">
+        <div class="row search-filters inst-filter">
             <div  class="form-horizontal">
                 <div id="dvSearchNameUniversities" class="form-group">
-                    <h4>Listado de universidades</h4>
+                    <h5>Listado de universidades</h5>
                     <div class="col-md-2 ">
                       <label class="control-label">Buscar institución</label>
                     </div>
@@ -22,8 +22,8 @@
                 </div>
             </div>
         </div>
-        <div id="dvSearchOther" class="row search-filters">
-            <h4>Criterios de busqueda</h4>
+        <div id="dvSearchOther" class="row search-filters oter-filters">
+            <h5>Criterios de busqueda</h5>
             <div class="col-md-4">
                 <label class="control-label">Acreditadas</label>
                 <select id="isAccredited" ng-model="fieldSearch.isAccredited" class="form-control">
