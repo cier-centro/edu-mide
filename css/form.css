@@ -48,7 +48,21 @@
 	background-color:#727176;
 }
 .mide-page .table thead tr th:first-child{
-	border-radius: 5px 0px 0px 0px;
-	-moz-border-radius: 5px 0px 0px 0px;
-	-webkit-border-radius: 5px 0px 0px 0px;
+	border-radius: 8px 0px 0px 0px;
+	-moz-border-radius: 8px 0px 0px 0px;
+	-webkit-border-radius: 8px 0px 0px 0px;
+}
+.mide-page .table thead tr th:last-child{
+	border-radius: 0px 8px 0px 0px;
+	-moz-border-radius: 0px 8px 0px 0px;
+	-webkit-border-radius: 0px 8px 0px 0px;
+}
+.mide-page .table tr:nth-child(odd){
+	background-color: #E3E3E3;
+}
+.mide-page .table tbody td{
+	border-right: 1px solid #898989;
+}
+.mide-page .table tbody td:last-child{
+	border-right:none;
 }
