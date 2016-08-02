@@ -67,14 +67,14 @@
 	border-right:none;
 }
 /*acordion*/
-#accordion{
+.mide-page .valor-filter #accordion{
 	display: inline-block;
 	margin:15px 10px 10px 0px;
 }
-#accordion input {
+.mide-page .valor-filter #accordion input {
 	display: none;
 }
-#accordion label {
+.mide-page .valor-filter #accordion label {
 	background: #eee;
 	cursor: pointer;
 	display: block;
@@ -83,16 +83,16 @@
 	z-index: 20;
 	border: solid 1px #8E8E8E;
 }
-#accordion label:hover {
+.mide-page .valor-filter #accordion label:hover {
 	background: #ccc;
 }
 
-#accordion input:checked + label {
+.mide-page .valor-filter #accordion input:checked + label {
 	background: #ccc;
 	color: #ffffff;
 	margin-bottom: 0;
 }
-#accordion article {
+.mide-page .valor-filter #accordion article {
 	background: #f7f7f7;
 	height:0px;
 	overflow:hidden;
@@ -103,14 +103,12 @@
 	-o-transition: height 200ms ease-out;
 	transition: height 200ms ease-out;
 }
-#accordion article p {
+.mide-page .valor-filter #accordion article p {
 	font-weight: normal;
 	padding:8px;
 }
-#accordion input:checked article {
-
-}
-#accordion input:checked ~ article {
+#accordion .valor-filter input:checked article {}
+#accordion .valor-filter input:checked ~ article {
 	-webkit-transition: height 500ms ease-out;
 	-moz-transition: height 500ms ease-out;
 	-ms-transition: height 500ms ease-out;
