@@ -100,14 +100,39 @@
         <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
 
         <div id="seccionForSearchAddValue">
-            <b>Valor agregado: </b>
-            <br>
-            <label>Seleccione la Universidad: </label>
-            <select id="namesUniversities" ng-model="SelectedData">
+          <h4>Consulta por valor agregado<h4>
+          <div class="row search-filters valor-filter">
+            <h5>Consulte el modelo de Valor Agregado de su institución:<h5>
+            <div class="col-md-3 ">
+              <label class="control-label">Seleccione la Universidad: </label>
+            </div>
+            <div class="col-sm-6">
+              <select id="namesUniversities" ng-model="SelectedData" class="form-control">
                 <option ng-repeat="item in namesUniversities" ng-selected="{{item === SelectedData}}" value="{{item.codeIes}}">{{item.codeIes}} - {{item.nameUniversity}}</option>
-            </select>
-            <button id="btnSearch" ng-click="constructIp(SelectedData);">Buscar</button>
-            <br>
+              </select>
+            </div>
+            <div class="col-md-2 ">
+              <button id="btnSearch" class="btn btn-default" ng-click="constructIp(SelectedData);">Buscar</button>
+            </div>
+            <section id="accordion">
+        			<div>
+        				<input type="checkbox" id="check-1" />
+        				<label for="check-1">¿Qué es el modelo de Valor Agregado?</label>
+        				<article>
+        					<p>El Valor Agregado (VA) se refiere al logro o progreso de los estudiantes, en términos de aprendizaje. Es la diferencia entre el desempeño observado, (SABERPRO) y el desempeño a partir de los resultados en las pruebas SABER 11.</p>
+                  <p>Esta medición es posible ya que en Colombia, existen dos pruebas obligatorias estandarizadas, Saber 11 y Saber PRO, que permiten estimar el Valor Agregado de cada Institución de Educación Superior a partir del año 2012. El modelo se estima para dos competencias genéricas de manera separada: Lectura Crítica y Razonamiento Cuantitativo.</p>
+        				</article>
+        			</div>
+        			<div>
+        				<input type="checkbox" id="check-2" />
+        				<label for="check-2">¿Cómo se lee el  modelo de Valor Agregado?</label>
+        				<article>
+                  <p>El Valor Agregado (VA) se refiere al logro o progreso de los estudiantes, en términos de aprendizaje. Es la diferencia entre el desempeño observado, (SABERPRO) y el desempeño a partir de los resultados en las pruebas SABER 11.</p>
+                  <p>Esta medición es posible ya que en Colombia, existen dos pruebas obligatorias estandarizadas, Saber 11 y Saber PRO, que permiten estimar el Valor Agregado de cada Institución de Educación Superior a partir del año 2012. El modelo se estima para dos competencias genéricas de manera separada: Lectura Crítica y Razonamiento Cuantitativo.</p>
+        				</article>
+        			</div>
+        		</section>
+          </div>
         </div>
     </div>
 </div>
