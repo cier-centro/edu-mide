@@ -65,8 +65,8 @@
                 </div>
             </div>
         </div>
-        
-        <table class="tbUniversities table table-hover" >
+
+        <table class="tbUniversities table table-hover" ng-hide="tableResult" >
             <thead>
                 <tr>
                     <th>Puesto</th>
