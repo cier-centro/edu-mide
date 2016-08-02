@@ -103,12 +103,13 @@
 	padding:8px;
 }
 #accordion input:checked article {
-	-webkit-transition: height 200ms ease-out;
-	-moz-transition: height 200ms ease-out;
-	-ms-transition: height 200ms ease-out;
-	-o-transition: height 200ms ease-out;
-	transition: height 200ms ease-out;
+
 }
 #accordion input:checked ~ article {
+	-webkit-transition: height 500ms ease-out;
+	-moz-transition: height 500ms ease-out;
+	-ms-transition: height 500ms ease-out;
+	-o-transition: height 500ms ease-out;
+	transition: height 500ms ease-out;
 	height: 120px;
 }
