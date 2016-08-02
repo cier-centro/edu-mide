@@ -27,6 +27,9 @@
 .mide-page .mide-second-menu > div {
 	padding: 10px;
 }
+.mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a,.mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{
+	border: 1px solid #B7B8BC;
+}
 .mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat; border-right: 25px solid #5ABABB;}
 .mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 25px solid #F35F64;}
 .mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat; border-right: 25px solid #F4A558;}
@@ -34,9 +37,6 @@
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
 .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
-.mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a,.mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{
-	border: 1px solid #B7B8BC;
-}
 
 /**/
 .mide-page .mide-header-logo{
