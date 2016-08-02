@@ -86,7 +86,7 @@
 	z-index: 20;
 	border: solid 1px #8E8E8E;
 }
-.mide-page .valor-filter #accordion label:last-child {
+.mide-page .valor-filter #accordion div:last-child label {
 	margin-bottom: 0px;
 }
 .mide-page .valor-filter #accordion label:hover {
