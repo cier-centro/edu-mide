@@ -67,6 +67,9 @@
 	border-right:none;
 }
 /*acordion*/
+#accordion{
+	display: inline-block;
+}
 #accordion input {
 	display: none;
 }
