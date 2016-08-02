@@ -107,8 +107,8 @@
 	font-weight: normal;
 	padding:8px;
 }
-#accordion .valor-filter input:checked article {}
-#accordion .valor-filter input:checked ~ article {
+.mide-page #accordion .valor-filter input:checked article {}
+.mide-page #accordion .valor-filter input:checked ~ article {
 	-webkit-transition: height 500ms ease-out;
 	-moz-transition: height 500ms ease-out;
 	-ms-transition: height 500ms ease-out;
