@@ -75,12 +75,12 @@
 }
 #accordion label {
 	background: #eee;
-	border-radius: .25em;
 	cursor: pointer;
 	display: block;
-	margin-bottom: .125em;
-	padding: .25em 1em;
+	margin-bottom: 4px;
+	padding: 10px 12px;
 	z-index: 20;
+	border: solid 1px #8E8E8E;
 }
 #accordion label:hover {
 	background: #ccc;
@@ -88,9 +88,7 @@
 
 #accordion input:checked + label {
 	background: #ccc;
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
-	color: white;
+	color: #ffffff;
 	margin-bottom: 0;
 }
 #accordion article {
@@ -105,8 +103,6 @@
 #accordion input:checked article {
 }
 #accordion input:checked ~ article {
-	border-bottom-left-radius: .25em;
-	border-bottom-right-radius: .25em;
 	height: auto;
-	margin-bottom: .125em;
+	margin-bottom: 4px;
 }
