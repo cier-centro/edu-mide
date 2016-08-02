@@ -124,5 +124,7 @@
 .mide-page #seccionForSearchAddValue h4 {
 	color:#564577;
 	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/icon-value-add.png') no-repeat;
-	padding-left: 20px;
+	padding-left: 30px;
+	line-height: 30px;
+	margin-top: 25px;
 }
