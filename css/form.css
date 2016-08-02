@@ -92,10 +92,9 @@
 .mide-page .valor-filter #accordion label:hover {
 	background: #ccc;
 }
-
 .mide-page .valor-filter #accordion input:checked + label {
 	background: #ccc;
-	color: #ffffff;
+	/*color: #ffffff;*/
 	margin-bottom: 0;
 }
 .mide-page .valor-filter #accordion article {
