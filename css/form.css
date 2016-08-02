@@ -121,6 +121,8 @@
 	transition: height 500ms ease-out;
 	height: 120px;
 }
-.mide-page {
+.mide-page #seccionForSearchAddValue h4 {
 	color:#564577;
+	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/icon-value-add.png') no-repeat;
+	padding-right: 50px;
 }
