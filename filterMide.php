@@ -99,7 +99,7 @@
         <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
 
         <div id="seccionForSearchAddValue">
-          <h4>Consulta por valor agregado<h4>
+          <h4>Consulta por valor agregado</h4>
           <div class="row search-filters valor-filter">
             <h5>Consulte el modelo de Valor Agregado de su institución:<h5>
             <div class="col-md-3 ">
