@@ -88,7 +88,7 @@
             <tbody>
                 <tr dir-paginate="arrayUniversities in universities| filter:filters |itemsPerPage:10">
                     <td>{{arrayUniversities.position}}</td>
-                    <td>{{arrayUniversities.nameUniversity}}</td>
+                    <td><a href="http://aprende.colombiaaprende.edu.co/es/mide/va-90669">{{arrayUniversities.nameUniversity}}</a></td>
                     <td>{{arrayUniversities.sector}}</td>
                     <td>{{arrayUniversities.typeUniversity}}</td>
                     <td>{{arrayUniversities.isAccredited}}</td>
