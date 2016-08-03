@@ -116,7 +116,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                 alert("Favor seleccione al menos un criterio de busqueda.");
                 return false;
             }
-
+            var flagArrayComplete=0;
             angular.forEach(obj.content, function(mide) {
 
                 arrayObject = {
@@ -127,11 +127,15 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     isAccredited: mide.isAccredited,
                     codeIes: mide.codeIes
                 };
-
-                if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1)
-                    $scope.universities.push(arrayObject);
-
+                if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1){
+                  $scope.tableResult=false;
+                  $scope.universities.push(arrayObject);
+                  flagArrayComplete=1;
+                }
             });
+            if(flagArrayComplete == 0){
+              $scope.tableResult=true;
+            }
         });
     };
 
