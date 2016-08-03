@@ -135,6 +135,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             });
             if(flagArrayComplete == 0){
               $scope.tableResult=true;
+              alert("No se encontró ninguna coincidencia");
             }
         });
     };
