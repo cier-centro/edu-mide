@@ -37,7 +37,9 @@
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
 .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
-
+.mide-page .mide-second-menu-op1 a:hover{background-color: rgba(90,186,187,0.1);}
+.mide-page .mide-second-menu-op2 a:hover{background-color: rgba(243,95,100,0.1);}
+.mide-page .mide-second-menu-op3 a:hover{background-color: rgba(244,165,88,0.1);}
 /**/
 .mide-page .mide-header-logo{
     height: 80px;
