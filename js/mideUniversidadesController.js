@@ -154,7 +154,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
     });
 
     $scope.constructIp = function($codeIes) {
-        window.location="http://aprende.colombiaaprende.edu.co/es/mide/va-" + $codeIes;
+        window.location="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/va-" + $codeIes + ".pdf";
     };
 
 });
