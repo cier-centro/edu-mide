@@ -88,7 +88,7 @@
             <tbody>
                 <tr dir-paginate="arrayUniversities in universities| filter:filters |itemsPerPage:10">
                     <td>{{arrayUniversities.position}}</td>
-                    <td><a href="http://aprende.colombiaaprende.edu.co/es/mide/va-{{arrayUniversities.codeIes}}">{{arrayUniversities.nameUniversity}}</a></td>
+                    <td><a href="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/manualdeusuario-laventana_0.pdf?width=960&amp;height=500&amp;inline=true#pdf_reader" class="colorbox-inline show init-colorbox-inline-processed cboxElement">Ver ficha</a></td>
                     <td>{{arrayUniversities.sector}}</td>
                     <td>{{arrayUniversities.typeUniversity}}</td>
                     <td>{{arrayUniversities.isAccredited}}</td>
