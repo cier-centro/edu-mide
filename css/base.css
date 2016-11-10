@@ -1,3 +1,4 @@
+.mide-page .mide-content-view h1, h2{color:#7CB8BA;}
 /*bacground del sitio*/
 .mide-page .main_container {
 	background: url('http://52.37.84.217/edu-mide/images/midebodybg.jpg') repeat;
@@ -223,6 +224,9 @@
 }
 .mide-page .contact-view b {
   margin: 0 0 0 15px;
+}
+.mide-page .section_content i {
+	cursor: default;
 }
 @media (min-width: 768px) {
   .mide-page .contact-view {
