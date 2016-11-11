@@ -229,6 +229,11 @@
 .mide-page .section_content i {
 	cursor: default;
 }
+.mide-page .section_content table tbody tr th {
+		vertical-align: middle;
+}
+
+
 @media (min-width: 768px) {
   .mide-page .contact-view {
     display: flex;
