@@ -232,6 +232,10 @@
 .mide-page .section_content table tbody tr th {
 		vertical-align: middle;
 }
+.mide-page .section_content img {
+	margin:15px auto;
+
+}
 
 
 @media (min-width: 768px) {

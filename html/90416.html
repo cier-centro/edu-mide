@@ -1,0 +1,15 @@
+<!--90416-->
+<p>La Metodología empleada consiste en dos pasos: normalización d los datos y ponderación y agregación.</p>
+<ol>
+  <li>
+    <p>El método de normalización utilizado en el MIDE es Min-Max (OECD, 2008), que consiste en obtener variables con igual rango [0, 1], con el fin de transformarlas a escalas comparables. Cada uno de los valores de las variables transformadas se calcula como:<p>
+      <img src="http://52.37.84.217/edu-mide/images/img-formula.jpg" class="img-responsive" alt="formula"/>
+      Donde i={1,…,I} denota el conjunto de Instituciones y j={1,…J} denota el conjunto de variables del MIDE.
+  </li>
+  <li>
+    <p>El MIDE se construye por medio de una agregación lineal, debido a que todas las variables están normalizadas a la misma escala y, también, siguiendo el principio de replicabilidad, debido a su fácil implementación. Este método consta en calcular un puntaje global para cada IES como una función lineal de los puntajes de cada variable:</p>
+    <img src="http://52.37.84.217/edu-mide/images/img-formula2.jpg" class="img-responsive" alt="formula"/>
+    Donde i={1,…,I} denota el conjunto de Instituciones, j={1,…,J} denota el conjunto de variables del MIDE,  ω_i son los pesos de ponderación* de las I variables, y V_ij es el puntaje de la IES i en la variable j.
+  </li>
+</ol>
+<p>Como paso final, se hace un ordenamiento de las IES a partir de S_i para encontrar el puesto definitivo, donde la primera institución de la clasificación es aquella con mayor puntaje global.</p>
