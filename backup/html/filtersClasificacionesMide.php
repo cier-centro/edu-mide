@@ -6,7 +6,7 @@
 <div ng-module="mideUniversidades" >
     <div ng-controller="mideUniversidadesController">
         
-        <input id="productMide" type="hidden" value="Universidades">
+        <input id="productMide" type="hidden" value="Clasificación">
         
         <div id="dvSearchOther" class="row search-filters oter-filters">
             <h5>Criterios de busqueda</h5>
