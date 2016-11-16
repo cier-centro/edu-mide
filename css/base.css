@@ -1,6 +1,8 @@
+.mide-page .mide-content-view h1, h2{color:#6ACCCC;}
+.mide-page .mide-content-view p{color:#5B5B5F;}
 /*bacground del sitio*/
 .mide-page .main_container {
-	background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midebodybg.jpg') repeat;
+	background: url('http://52.37.84.217/edu-mide/images/midebodybg.jpg') repeat;
 }
 .mide-page .panels-flexible-region-49-center{
 	width: 100%;
@@ -30,10 +32,10 @@
 .mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a,.mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{
 	border: 1px solid #B7B8BC;
 }
-.mide-page .mide-second-menu-op1 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu1.png') no-repeat; border-right: 20px solid #5ABABB;}
-.mide-page .mide-second-menu-op2 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 20px solid #F35F64;}
-.mide-page .mide-second-menu-op3 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu3.png') no-repeat; border-right: 20px solid #F4A558;}
-.mide-page .mide-second-menu-op4 a{background: url('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/images/midesubmenu4.png') no-repeat; border-right: 20px solid #459F88;}
+.mide-page .mide-second-menu-op1 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu1.png') no-repeat; border-right: 20px solid #5ABABB;}
+.mide-page .mide-second-menu-op2 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 20px solid #F35F64;}
+.mide-page .mide-second-menu-op3 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu3.png') no-repeat; border-right: 20px solid #F4A558;}
+.mide-page .mide-second-menu-op4 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu4.png') no-repeat; border-right: 20px solid #459F88;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
 .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
@@ -45,6 +47,7 @@
     height: 80px;
     background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-header-logo.png') no-repeat center;
     margin: 15px 0;
+	cursor:pointer;
 }
 .mide-page .mide-banner{
 	background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-banner-bg.jpg') no-repeat top left;
@@ -223,6 +226,18 @@
 .mide-page .contact-view b {
   margin: 0 0 0 15px;
 }
+.mide-page .section_content i {
+	cursor: default;
+}
+.mide-page .section_content table tbody tr th {
+		vertical-align: middle;
+}
+.mide-page .section_content img {
+	margin:15px auto;
+
+}
+
+
 @media (min-width: 768px) {
   .mide-page .contact-view {
     display: flex;
