@@ -36,8 +36,8 @@
 .mide-page .mide-second-menu-op2 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu2.png') no-repeat; border-right: 20px solid #F35F64;}
 .mide-page .mide-second-menu-op3 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu3.png') left no-repeat, url('http://52.37.84.217/edu-mide/images/midesubmenu3-rig.png') right no-repeat; border-right: 20px solid #F4A558;}
 .mide-page .mide-second-menu-op4 a{background: url('http://52.37.84.217/edu-mide/images/midesubmenu4.png') no-repeat; border-right: 20px solid #459F88;}
-.mide-page .mide-second-menu-op3 a{background-position-y: -143px;}
-.mide-page .mide-second-menu-op1 a:hover,.mide-page .mide-second-menu-op2 a:hover,.mide-page .mide-second-menu-op3 a:hover,.mide-page .mide-second-menu-op4 a:hover{background-position-y: -2px;-webkit-transition: background 300ms ease-out;-moz-transition: background 300ms ease-out;-ms-transition: background 300ms ease-out;-o-transition: background 300ms ease-out;transition: background 300ms ease-out;}
+.mide-page .mide-second-menu-op1 a,.mide-page .mide-second-menu-op2 a,.mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{background-position-y: -143px;}
+.mide-page .mide-second-menu-op1 a:hover,.mide-page .mide-second-menu-op2 a:hover,.mide-page .mide-second-menu-op3 a:hover,.mide-page .mide-second-menu-op4 a:hover{background-position-y: -2px;-webkit-transition: background 100ms ease-out;-moz-transition: background 100ms ease-out;-ms-transition: background 100ms ease-out;-o-transition: background 100ms ease-out;transition: background 100ms ease-out;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable, .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-color:#CFD0D3; border-right: 25px solid #A4A6AC;}
 .mide-page .mide-second-menu-op1 .disable, .mide-page .mide-second-menu-op2 .disable {background-position: 0 -142px;}
 .mide-page .mide-second-menu-op3 .disable, .mide-page .mide-second-menu-op4 .disable {background-position: 0 -87px;}
