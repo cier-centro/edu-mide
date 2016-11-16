@@ -20,7 +20,7 @@
 .mide-page .search-filters label{
   font-weight: normal;
 }
-.mide-page .search-filters #btnSearch{
+.mide-page #btnSearch{
 	padding: 6px 40px;
 	color: #ffffff;
 	background-color: #53B7B7;
