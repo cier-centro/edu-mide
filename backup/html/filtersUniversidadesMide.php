@@ -71,6 +71,8 @@
                     <td><input type="text" ng-model="filters.sector"></td>
                     <td><input type="text" ng-model="filters.classification"></td>
                     <td><input type="text" ng-model="filters.isAccredited"></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </thead>
 
