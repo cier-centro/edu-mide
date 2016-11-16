@@ -13,6 +13,11 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 
     $scope.tableResult=true;
     
+    $scope.sort = function(keyname){
+        $scope.sortKey  = keyname;
+        $scope.reverse = !$scope.reverse;
+    };
+    
     $scope.searchByOtherFields = function() {
 
         var filterSearch = 0;

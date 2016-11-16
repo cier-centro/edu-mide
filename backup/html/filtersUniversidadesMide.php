@@ -36,8 +36,7 @@
                 </div>
                 <div class="col-md-4 col-md-offset-1">
                     <label class="control-label">Grupo de clasificación: </label>
-                    <select id="classification" ng-model="fieldSearch.classification" class="form-control">
-                        <option value="">-- Seleccione --</option>
+                    <select id="classification" class="form-control">
                         <option value="ENFOQUE DOCTORAL">ENFOQUE DOCTORAL</option>
                         <option value="ESPECIALIZADAS">ESPECIALIZADAS</option>
                         <option value="ENFOQUE MAESTRIA">ENFOQUE MAESTRIA</option>
@@ -61,13 +60,13 @@
                     <th>Sector</th>
                     <th>Clasificación</th>
                     <th>Acreditación</th>
-                    <th>Puntaje</th>
-                    <th>Puntaje est</th>
+                    <th ng-click="sort('score')" style="cursor: pointer">Puntaje</th>
+                    <th ng-click="sort('score_est')" style="cursor: pointer">Puntaje est</th>
                 </tr>
 
                 <tr>
                     <td></td>
-                    <td><input type="text" ng-model="filters.nameUniversity"></td>
+                    <td sortable="'nameUniversity'"><input type="text" ng-model="filters.nameUniversity"></td>
                     <td><input type="text" ng-model="filters.sector"></td>
                     <td><input type="text" ng-model="filters.classification"></td>
                     <td><input type="text" ng-model="filters.isAccredited"></td>
@@ -77,7 +76,7 @@
             </thead>
 
             <tbody>
-                <tr dir-paginate="arrayUniversities in universities| filter:filters |itemsPerPage:10">
+                <tr dir-paginate="arrayUniversities in universities| filter:filters |itemsPerPage:10 |orderBy:sortKey:reverse">
                     <td>{{arrayUniversities.codeIes}}</td>
                     <td>
                         <a href="http://aprende.colombiaaprende.edu.co/es/mide/{{arrayUniversities.codeIes}}" >{{arrayUniversities.nameUniversity}}</a>
