@@ -1,160 +1,88 @@
 var app = "";
+var obj = "";
 
 app = angular.module('mideUniversidades', ['angularUtils.directives.dirPagination']);
 
 app.controller('mideUniversidadesController', function($scope, $http) {
 
-    $scope.universities = [];
+    obj = {content: null};
+
+    $http.get('../../service/resources/base-mide.json').success(function(data) {
+        obj.content = data;
+    });
+
     $scope.tableResult=true;
-    $scope.search = function() {
-        var obj = {content: null};
-
-        $http.get('Resources/base-mide.json').success(function(data) {
-            obj.content = data;
-
-            angular.forEach(obj.content, function(mide) {
-                $scope.universities.push({
-                    position: mide.position,
-                    nameUniversity: mide.nameUniversity,
-                    sector: mide.sector,
-                    typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited,
-                    codeIes: mide.codeIes
-                });
-            });
-        });
-    };
-
+    
     $scope.searchByOtherFields = function() {
 
-        var obj = {content: null};
         var filterSearch = 0;
         var arrayObject = '';
         var numberFilterActive = 0;
 
         $scope.universities = [];
 
-        $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function(data) {
+        var nameUniversity = document.getElementById('nameUniversity').value;
+        var isAccredited = document.getElementById('isAccredited').value;
+        var sector = document.getElementById('sector').value;
+        var classification = document.getElementById('classification').value;
+        var productMide = document.getElementById('productMide').value;
+            
+        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""){
+            alert("Favor seleccione al menos un criterio de busqueda.");
+            return false;
+        }
 
-            obj.content = data;
+        if(nameUniversity)
+            numberFilterActive += 1;
+        if(isAccredited)
+            numberFilterActive += 1;
+        if(sector)
+            numberFilterActive += 1;
+        if(classification)
+            numberFilterActive += 1;
 
-            var isAccredited = document.getElementById('isAccredited').value;
-            var typeUniversity = document.getElementById('typeUniversity').value;
-            var sector = document.getElementById('sector').value;
-            var classificationGroup = document.getElementById('classificationGroup').value;
+        angular.forEach(obj.content, function(mide) {
+            filterSearch = 0;
+            arrayObject = {
+                codeIes: mide.codeIes,
+                nameUniversity: mide.nameUniversity,
+                sector: mide.sector,
+                classification: mide.classification,
+                isAccredited: mide.isAccredited,
+                score: mide.score,
+                score_est: mide.score_est,
+                productMide: mide.productMide
+            };
 
-            if(isAccredited == "" && typeUniversity == "" && sector == "" && classificationGroup == ""){
-                alert("Favor seleccione al menos un criterio de busqueda.");
-                return false;
+            if(nameUniversity){
+                if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1){
+                    filterSearch += 1;
+                }
             }
 
-            if(isAccredited)
-                numberFilterActive += 1;
-            if(typeUniversity)
-                numberFilterActive += 1;
-            if(sector)
-                numberFilterActive += 1;
-            if(classificationGroup)
-                numberFilterActive += 1;
+            if(isAccredited){
+                if(isAccredited == mide.isAccredited)
+                    filterSearch += 1;
+            }
 
-            angular.forEach(obj.content, function(mide) {
-                filterSearch = 0;
-                arrayObject = {
-                    position: mide.position,
-                    nameUniversity: mide.nameUniversity,
-                    sector: mide.sector,
-                    typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited,
-                    codeIes: mide.codeIes
-                };
+            if(sector){
+                if(sector == mide.sector)
+                    filterSearch += 1;
+            }
 
-                if(isAccredited){
-                    if(isAccredited == mide.isAccredited)
-                        filterSearch += 1;
-                }
+            if(classification){
+                if(classification == mide.classification)
+                    filterSearch += 1;
+            }
 
-                if(typeUniversity){
-                    if(typeUniversity == mide.typeUniversity)
-                        filterSearch += 1;
-                   }
-
-                if(sector){
-                    if(sector == mide.sector)
-                        filterSearch += 1;
-                }
-
-                if(classificationGroup){
-                    if(classificationGroup == mide.classificationGroup)
-                        filterSearch = 1;
-                }
-
-                if(filterSearch == numberFilterActive){
+            if(filterSearch == numberFilterActive){
+                if(mide.productMide == productMide){
                     $scope.tableResult=false;
                     $scope.universities.push(arrayObject);
-                }else{
-                  $scope.tableResult=true;
                 }
-
-            });
-        });
-    };
-
-    $scope.searchByNameUniversities = function() {
-
-        var obj = {content: null};
-        var arrayObject = '';
-
-        $scope.universities = [];
-
-        $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function(data) {
-
-            obj.content = data;
-
-            var nameUniversity = document.getElementById('nameUniversity').value;
-
-            if(nameUniversity == ""){
-                alert("Favor seleccione al menos un criterio de busqueda.");
-                return false;
             }
-            var flagArrayComplete=0;
-            angular.forEach(obj.content, function(mide) {
 
-                arrayObject = {
-                    position: mide.position,
-                    nameUniversity: mide.nameUniversity,
-                    sector: mide.sector,
-                    typeUniversity: mide.typeUniversity,
-                    isAccredited: mide.isAccredited,
-                    codeIes: mide.codeIes
-                };
-                if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1){
-                  $scope.tableResult=false;
-                  $scope.universities.push(arrayObject);
-                  flagArrayComplete=1;
-                }
-            });
-            if(flagArrayComplete == 0){
-              $scope.tableResult=true;
-              alert("No se encontró ninguna coincidencia");
-            }
         });
+        
     };
-
-    $scope.namesUniversities = [];
-
-    var obj = {content: null};
-    $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/resources/base-mide.json').success(function (data) {
-        obj.content = data;
-        angular.forEach(obj.content, function (mide) {
-            $scope.namesUniversities.push({
-                codeIes: mide.codeIes,
-                nameUniversity: mide.nameUniversity
-            });
-        });
-    });
-
-    $scope.constructIp = function($codeIes) {
-        window.location="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/va-" + $codeIes + ".pdf";
-    };
-
 });
