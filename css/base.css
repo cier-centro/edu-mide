@@ -1,5 +1,5 @@
 .mide-page .mide-content-view h1, h2{color:#6ACCCC;}
-.mide-page .mide-content-view p{color:#5B5B5F;}
+.mide-page .mide-content-view p{color:#5B5B5F;padding-bottom: 15px;}
 /*bacground del sitio*/
 .mide-page .main_container {
 	background: url('http://52.37.84.217/edu-mide/images/midebodybg.jpg') repeat;
@@ -93,9 +93,9 @@
   margin-bottom: 10px;
 }
 .mide-page #microsite_panel .pane-content > .menu li.parent_menu{
-  width: 21%;
+  width: 16%;
 }
-.mide-page #microsite_panel .pane-content > .menu li.parent_menu:first-child{
+.mide-page #microsite_panel .pane-content > .menu li.parent_menu:nth-child(2){
   width: 22%;
 }
 .mide-page #microsite_panel .pane-content > .menu li.parent_menu:last-child{
@@ -238,7 +238,6 @@
 	margin:15px auto;
 
 }
-
 
 @media (min-width: 768px) {
   .mide-page .contact-view {

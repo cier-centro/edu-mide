@@ -5,18 +5,18 @@
 
 <div ng-module="mideUniversidades" >
     <div ng-controller="mideUniversidadesController">
-        
+
         <input id="productMide" type="hidden" value="Instituciones">
-        
+
         <div id="dvSearchOther" class="row search-filters oter-filters">
             <h5>Criterios de busqueda</h5>
-            
-            <div class="col-sm-7">
+
+            <div class="col-md-7">
                 <label class="control-label">Buscar institución</label>
                 <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
             </div>
-                
-            <div class="col-md-4">
+
+            <div class="col-md-5">
                 <label class="control-label">Acreditadas</label>
                 <select id="isAccredited" ng-model="fieldSearch.isAccredited" class="form-control">
                     <option value="">-- Seleccione --</option>
@@ -24,9 +24,9 @@
                     <option value="NO">IES no acreditada</option>
                 </select>
             </div>
-            
+
             <div class="row search-filters">
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <label class="control-label">Sector:</label>
                     <select id="sector" ng-model="fieldSearch.sector" class="form-control">
                         <option value="">-- Seleccione --</option>
@@ -34,7 +34,7 @@
                         <option value="PRIVADA">IES no públicas</option>
                     </select>
                 </div>
-                <div class="col-md-4 col-md-offset-1">
+                <div class="col-md-5 col-md-offset-2">
                     <label class="control-label">Grupo de clasificación: </label>
                     <select id="classification" class="form-control">
                         <option value="ENFOQUE DOCTORAL">ENFOQUE DOCTORAL</option>
@@ -46,10 +46,10 @@
                         <option value="PREGRADO I 5_8">PREGRADO I 5_8</option>
                     </select>
                 </div>
-                <div class="col-sm-2">
-                    <button id="btnSearch" ng-click="searchByOtherFields();" class="btn btn-default">Buscar</button>
-                </div>
             </div>
+        </div>
+        <div class="col-sm-2 col-md-offset-10">
+            <button id="btnSearch" ng-click="searchByOtherFields();" class="btn btn-default">Buscar</button>
         </div>
 
         <table class="tbUniversities table table-hover" ng-hide="tableResult" >
@@ -89,7 +89,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <dir-pagination-controls max-size="5" direction-links="true" boundary-links="true" ></dir-pagination-controls>
 
     </div>

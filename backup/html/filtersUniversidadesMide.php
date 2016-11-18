@@ -11,7 +11,7 @@
         <div id="dvSearchOther" class="row search-filters oter-filters">
             <h5>Criterios de busqueda</h5>
 
-            <div class="col-sm-7">
+            <div class="col-md-7">
                 <label class="control-label">Buscar institución</label>
                 <input type="text" id="nameUniversity" ng-model="fieldSearch.nameUniversity" class="form-control">
             </div>
@@ -26,7 +26,7 @@
             </div>
 
             <div class="row search-filters">
-                <div class="col-md-6">
+                <div class="col-md-5">
                     <label class="control-label">Sector:</label>
                     <select id="sector" ng-model="fieldSearch.sector" class="form-control">
                         <option value="">-- Seleccione --</option>
@@ -34,7 +34,7 @@
                         <option value="PRIVADA">IES no públicas</option>
                     </select>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-5 col-md-offset-2">
                     <label class="control-label">Grupo de clasificación: </label>
                     <select id="classification" class="form-control">
                         <option value="ENFOQUE DOCTORAL">ENFOQUE DOCTORAL</option>
