@@ -2,7 +2,7 @@
 <script type="text/javascript" src="../../js/angular.ng-modules.js"></script>
 <script type="text/javascript" src="../../js/dirPagination.js"></script>
 <script type="text/javascript" src="../../js/mideUniversidadesController.js"></script>
-
+<h2>Mide Instituciones</h2>
 <div ng-module="mideUniversidades" >
     <div ng-controller="mideUniversidadesController">
 
