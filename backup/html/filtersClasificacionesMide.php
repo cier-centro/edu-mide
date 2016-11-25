@@ -7,9 +7,22 @@
     <div ng-controller="mideUniversidadesController">
 
         <input id="productMide" type="hidden" value="Clasificación">
-
+        <div class="row search-filters">
+          <h5>Criterios de busqueda</h5>
+          <div class="col-md-5">
+              <label class="control-label">Grupo de clasificación: </label>
+              <select id="classification" class="form-control">
+                  <option value="ENFOQUE DOCTORAL">ENFOQUE DOCTORAL</option>
+                  <option value="ESPECIALIZADAS">ESPECIALIZADAS</option>
+                  <option value="ENFOQUE MAESTRIA">ENFOQUE MAESTRIA</option>
+                  <option value="PREGRADO U 5_8">PREGRADO U 5_8</option>
+                  <option value="PREGRADO U 2_4">PREGRADO U 2_4</option>
+                  <option value="PREGRADO I 2_4">PREGRADO I 2_4</option>
+                  <option value="PREGRADO I 5_8">PREGRADO I 5_8</option>
+              </select>
+          </div>
+        </div>
         <div id="dvSearchOther" class="row search-filters oter-filters">
-            <h5>Criterios de busqueda</h5>
 
             <div class="col-md-7">
                 <label class="control-label">Buscar institución</label>
@@ -32,18 +45,6 @@
                         <option value="">-- Seleccione --</option>
                         <option value="OFICIAL">IES públicas</option>
                         <option value="PRIVADA">IES no públicas</option>
-                    </select>
-                </div>
-                <div class="col-md-5 col-md-offset-2">
-                    <label class="control-label">Grupo de clasificación: </label>
-                    <select id="classification" class="form-control">
-                        <option value="ENFOQUE DOCTORAL">ENFOQUE DOCTORAL</option>
-                        <option value="ESPECIALIZADAS">ESPECIALIZADAS</option>
-                        <option value="ENFOQUE MAESTRIA">ENFOQUE MAESTRIA</option>
-                        <option value="PREGRADO U 5_8">PREGRADO U 5_8</option>
-                        <option value="PREGRADO U 2_4">PREGRADO U 2_4</option>
-                        <option value="PREGRADO I 2_4">PREGRADO I 2_4</option>
-                        <option value="PREGRADO I 5_8">PREGRADO I 5_8</option>
                     </select>
                 </div>
             </div>
