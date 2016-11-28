@@ -1,5 +1,5 @@
 .mide-page .mide-content-view h1, h2{color:#ea7474;}
-.mide-page .mide-content-view p{color:#5B5B5F;padding-bottom: 15px;}
+.mide-page .mide-content-view p{color:#5B5B5F;padding-bottom: 15px;text-align: justify;}
 /*bacground del sitio*/
 .mide-page .main_container {
 	background: url('http://52.37.84.217/edu-mide/images/midebodybg.jpg') repeat;
