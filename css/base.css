@@ -239,7 +239,9 @@
 }
 .mide-page .section_content img {
 	margin:15px auto;
-
+}
+.mide-page .section_content .panel.panel-default{
+	border:none;
 }
 
 @media (min-width: 768px) {
