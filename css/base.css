@@ -22,7 +22,7 @@
 }
 .mide-page .mide-second-menu-op3 a,.mide-page .mide-second-menu-op4 a{
 	display:block;
-	height:142.5px;
+	height:195px;
 	width:100%;
 	cursor:pointer;
 }
@@ -238,7 +238,7 @@
 		vertical-align: middle;
 }
 .mide-page .section_content img {
-	margin:15px auto;
+	margin:5px auto;
 }
 .mide-page .section_content .panel.panel-default{
 	border:none;
