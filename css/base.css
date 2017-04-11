@@ -47,7 +47,8 @@
 /**/
 .mide-page .mide-header-logo{
     height: 80px;
-    background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-header-logo.png') no-repeat center;
+    /*background: url('http://aprende.colombiaaprende.edu.co/ckfinder/userfiles/images/mide-header-logo.png') no-repeat center;*/
+    background: url('../images/mide-header-logo.png') no-repeat center;
     margin: 15px 0;
 	cursor:pointer;
 }
