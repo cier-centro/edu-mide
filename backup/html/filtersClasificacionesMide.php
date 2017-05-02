@@ -4,7 +4,7 @@
 <script type="text/javascript" src="/sites/default/files/naspublic/mide/js/dirPagination.js"></script>
 <script type="text/javascript" src="/sites/default/files/naspublic/mide/js/mideUniversidadesController.js"></script>
 <h2>Mide Clasificacion</h2>
-<div class="panel-group" id="accordion" class="helping-image" role="tablist" aria-multiselectable="true">
+<div class="panel-group helping-image" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
