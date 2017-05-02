@@ -240,6 +240,7 @@
 }
 .mide-page .section_content img {
 	margin:5px auto;
+	display: block;
 }
 .mide-page .section_content .panel.panel-default{
 	border:none;
@@ -253,10 +254,6 @@
 }
 .mide-page .section_content #accordion.helping-image a.collapsed{
 	background: url('../images/icon-plus.png') no-repeat right center;
-}
-.mide-page .section_content #accordion.helping-image img{
-	display: block;
-	margin: auto;
 }
 
 @media (min-width: 768px) {
