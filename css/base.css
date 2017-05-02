@@ -244,6 +244,17 @@
 .mide-page .section_content .panel.panel-default{
 	border:none;
 }
+.mide-page .section_content #accordion.helping-image a{
+	width: 100%;
+	display: block;
+	text-align: left;
+	text-decoration: none;
+	background: url('../img/icon-plus.png') no-repeat right center;
+}
+.mide-page .section_content #accordion.helping-image a.collapsed{
+	background: url('../img/icon-minus.png') no-repeat right center;
+}
+
 
 @media (min-width: 768px) {
   .mide-page .contact-view {
