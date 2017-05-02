@@ -254,7 +254,10 @@
 .mide-page .section_content #accordion.helping-image a.collapsed{
 	background: url('../images/icon-plus.png') no-repeat right center;
 }
-
+.mide-page .section_content #accordion.helping-image img{
+	display: block;
+	margin: auto;
+}
 
 @media (min-width: 768px) {
   .mide-page .contact-view {
