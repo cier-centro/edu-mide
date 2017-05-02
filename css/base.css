@@ -249,10 +249,10 @@
 	display: block;
 	text-align: left;
 	text-decoration: none;
-	background: url('../images/icon-plus.png') no-repeat right center;
+	background: url('../images/icon-minus.png') no-repeat right center;
 }
 .mide-page .section_content #accordion.helping-image a.collapsed{
-	background: url('../images/icon-minus.png') no-repeat right center;
+	background: url('../images/icon-plus.png') no-repeat right center;
 }
 
 
