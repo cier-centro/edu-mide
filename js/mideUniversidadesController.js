@@ -7,7 +7,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 
     obj = {content: null};
 
-    $http.get('../service/Resources/base-mide.json').success(function(data) {
+    $http.get('52.37.84.217/edu-mide/service/Resources/base-mide.json').success(function(data) {
 		console.log(data);
 		obj.content = data;
     });

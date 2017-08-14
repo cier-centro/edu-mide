@@ -15,7 +15,7 @@ class Reader {
     public function getPHPExcelObject() {
         return $this->objPHPExcel;
     }
-    
+	
     public function read($path, $fileName) {
         $this->objPHPExcel = PHPExcel_IOFactory::load($path.$fileName);
     }
