@@ -47,6 +47,10 @@ class BaseMide {
             $score_est = number_format(($sheet->getCellByColumnAndRow(6, $file)->getValue() * 100),1);
             $caracter = $sheet->getCellByColumnAndRow(7, $file)->getValue();
             $productMide = $sheet->getCellByColumnAndRow(8, $file)->getValue();
+			$yearU = $sheet->getCellByColumnAndRow(9, $file)->getValue();
+			$yearT = $sheet->getCellByColumnAndRow(10, $file)->getValue();
+			print($yearT);
+			print($yearU);
 
             $universitiesArray[$i]['codeIes'] = $codeIes;
             $universitiesArray[$i]['nameUniversity'] = $nameUniversity;
@@ -57,6 +61,8 @@ class BaseMide {
             $universitiesArray[$i]['score_est'] = $score_est;
             $universitiesArray[$i]['caracter'] = $caracter;
             $universitiesArray[$i]['productMide'] = $productMide;
+			$universitiesArray[$i]['yearU'] = $yearU;
+			$universitiesArray[$i]['yearT'] = $yearT;
 
             $i++;
         }

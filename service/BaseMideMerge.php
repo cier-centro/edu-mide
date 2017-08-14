@@ -34,6 +34,8 @@ class BaseMideMerge {
             $dataArray[$i]['score_est'] = $universities['score_est']."%";
             $dataArray[$i]['caracter'] = $universities['caracter'];
             $dataArray[$i]['productMide'] = $universities['productMide'];
+			$dataArray[$i]['yearU'] = $universities['yearU'];
+			$dataArray[$i]['yearT'] = $universities['yearT'];
         }
         
         return $dataArray;

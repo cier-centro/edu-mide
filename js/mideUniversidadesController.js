@@ -31,8 +31,9 @@ app.controller('mideUniversidadesController', function($scope, $http) {
         var sector = document.getElementById('sector').value;
         var classification = document.getElementById('classification').value;
         var productMide = document.getElementById('productMide').value;
+		var yearU=document.getElementById('yearU');
             
-        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""){
+        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""&&year==""){
             alert("Favor seleccione al menos un criterio de busqueda.");
             return false;
         }
@@ -45,6 +46,8 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             numberFilterActive += 1;
         if(classification)
             numberFilterActive += 1;
+		if(yearU)
+			numberFilterActive += 1;
 
         angular.forEach(obj.content, function(mide) {
             filterSearch = 0;
@@ -56,7 +59,11 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                 isAccredited: mide.isAccredited,
                 score: mide.score,
                 score_est: mide.score_est,
-                productMide: mide.productMide
+                productMide: mide.productMide,
+				yearU: mide.yearU,
+				yearT: mide.yearT
+				
+				
             };
 
             if(nameUniversity){
@@ -77,6 +84,11 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 
             if(classification){
                 if(classification == mide.classification)
+                    filterSearch += 1;
+            }
+			
+			if(year){
+                if(yearU == mide.yearU)
                     filterSearch += 1;
             }
 
