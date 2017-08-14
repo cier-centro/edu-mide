@@ -7,8 +7,9 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 
     obj = {content: null};
 
-    $http.get('https://dl.dropboxusercontent.com/u/575652037/mide/edu-mide/service/Resources/base-mide.json').success(function(data) {
-        obj.content = data;
+    $http.get('../service/Resources/base-mide.json').success(function(data) {
+		console.log(data);
+		obj.content = data;
     });
 
     $scope.tableResult=true;
@@ -29,11 +30,19 @@ app.controller('mideUniversidadesController', function($scope, $http) {
         var nameUniversity = document.getElementById('nameUniversity').value;
         var isAccredited = document.getElementById('isAccredited').value;
         var sector = document.getElementById('sector').value;
-        var classification = document.getElementById('classification').value;
-        var productMide = document.getElementById('productMide').value;
-		var yearU=document.getElementById('yearU');
+		try {
+			var classification = document.getElementById('classification').value;
+		}catch(e){
+			var classification="";
+		}
+		try{
+			var yearU=document.getElementById('yearU').value;
+		}catch(e){
+			var yearU="";
+		}
+		console.log(yearU);
             
-        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""&&year==""){
+        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""&& yearU ==""){
             alert("Favor seleccione al menos un criterio de busqueda.");
             return false;
         }
@@ -46,9 +55,11 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             numberFilterActive += 1;
         if(classification)
             numberFilterActive += 1;
-		if(yearU)
-			numberFilterActive += 1;
-
+		if(yearU){
+			numberFilterActive += 1; 
+		}
+		
+		console.log(numberFilterActive);
         angular.forEach(obj.content, function(mide) {
             filterSearch = 0;
             arrayObject = {
@@ -87,16 +98,18 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     filterSearch += 1;
             }
 			
-			if(year){
+			if(yearU){
                 if(yearU == mide.yearU)
                     filterSearch += 1;
             }
 
+			console.log(arrayObject.productMide);
             if(filterSearch == numberFilterActive){
-                if(mide.productMide == productMide){
-                    $scope.tableResult=false;
-                    $scope.universities.push(arrayObject);
-                }
+				
+				console.log("llegue");
+                $scope.tableResult=false;
+                $scope.universities.push(arrayObject);
+         
             }
 
         });
