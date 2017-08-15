@@ -102,12 +102,9 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                 if(yearU == mide.yearU)
                     filterSearch += 1;
             }
-
-			console.log(arrayObject.productMide);
             if(filterSearch == numberFilterActive){
 				
-				console.log("llegue");
-                $scope.tableResult=false;
+				$scope.tableResult=false;
                 $scope.universities.push(arrayObject);
          
             }
