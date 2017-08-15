@@ -31,16 +31,18 @@ app.controller('mideUniversidadesController', function($scope, $http) {
         var nameUniversity = document.getElementById('nameUniversity').value;
         var isAccredited = document.getElementById('isAccredited').value;
         var sector = document.getElementById('sector').value;
+		var classification;
 		try {
-			var classification = document.getElementById('classification').value;
+			classification = document.getElementById('classification').value;
 		}catch(e){
-			var classification="";
+			classification="";
 		}
+		var yearU;
 		try{
-			var yearU=document.getElementById('yearU').value;
+			yearU=document.getElementById('yearU').value;
 			console.log(yearU);
 		}catch(e){
-			var yearU="";
+			yearU="";
 		}
 		console.log(yearU+" es el año seleccionado");
             
@@ -106,7 +108,6 @@ app.controller('mideUniversidadesController', function($scope, $http) {
                     filterSearch += 1;
             }
             if(filterSearch == numberFilterActive){
-				
 				$scope.tableResult=false;
                 $scope.universities.push(arrayObject);
          
