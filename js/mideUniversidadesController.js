@@ -78,6 +78,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 				
 				
             };
+			console.log(yearU);
 
             if(nameUniversity){
                 if (mide.nameUniversity.indexOf(nameUniversity) > -1 || mide.nameUniversity.toUpperCase().indexOf(nameUniversity.toUpperCase()) > -1){
