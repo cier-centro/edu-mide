@@ -25,6 +25,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
         var arrayObject = '';
         var numberFilterActive = 0;
 
+		
         $scope.universities = [];
 
         var nameUniversity = document.getElementById('nameUniversity').value;
