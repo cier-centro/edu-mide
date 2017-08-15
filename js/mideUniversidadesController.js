@@ -38,12 +38,13 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 		}
 		try{
 			var yearU=document.getElementById('yearU').value;
+			console.log(yearU);
 		}catch(e){
 			var yearU="";
 		}
-		console.log(yearU);
+		console.log(yearU+" es el año seleccionado");
             
-        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == ""&& yearU ==""){
+        if(nameUniversity == "" && isAccredited == "" && sector == "" && classification == "" && yearU ==""){
             alert("Favor seleccione al menos un criterio de busqueda.");
             return false;
         }
@@ -56,9 +57,9 @@ app.controller('mideUniversidadesController', function($scope, $http) {
             numberFilterActive += 1;
         if(classification)
             numberFilterActive += 1;
-		if(yearU){
+		if(yearU)
 			numberFilterActive += 1; 
-		}
+		
 		
 		console.log(numberFilterActive);
         angular.forEach(obj.content, function(mide) {
