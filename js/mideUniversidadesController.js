@@ -7,7 +7,7 @@ app.controller('mideUniversidadesController', function($scope, $http) {
 
     obj = {content: null};
 
-    $http.get('http://52.37.84.217/edu-mide/service/Resources/base-mide.json').success(function(data) {
+    $http.get('http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/mide/json/base-mide.json').success(function(data) {
 		console.log(data);
 		obj.content = data;
     });
