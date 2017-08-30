@@ -1,7 +1,7 @@
-<script type="text/javascript" src="../js/angular.js"></script>
-<script type="text/javascript" src="../js/angular.ng-modules.js"></script>
-<script type="text/javascript" src="../js/dirPagination.js"></script>
-<script type="text/javascript" src="../js/mideUniversidadesController.js"></script>
+<script type="text/javascript" src="http://52.37.84.217/edu-mide/js/angular.js"></script>
+<script type="text/javascript" src="http://52.37.84.217/edu-mide/js/angular.ng-modules.js"></script>
+<script type="text/javascript" src="http://52.37.84.217/edu-mide/js/dirPagination.js"></script>
+<script type="text/javascript" src="http://52.37.84.217/edu-mide/js/mideUniversidadesController.js"></script>
 <h2>Mide Clasificacion</h2>
 <div class="panel-group helping-image" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
@@ -21,12 +21,14 @@
 </div>
 <div ng-module="mideUniversidades" >
     <div ng-controller="mideUniversidadesController">
+
+        <input id="productMide" type="hidden" value="Clasificación">
         <div class="row search-filters">
           <h5>Criterios de busqueda</h5>
           <div class="col-md-5">
               <label class="control-label">Año: </label>
               <select id="yearU" class="form-control">
-				  <option value="">-- Seleccione --</option>
+                  <option value="">-- Seleccione --</option>
                   <option value="2016">2016</option>
                   <option value="2017">2017</option>
               </select>
@@ -69,28 +71,39 @@
                     <th>Código IES</th>
                     <th>Nombre de Institución Educativa</th>
                     <th>Sector</th>
+                    <!--<th>Clasificación</th>-->
                     <th>Acreditación</th>
+                    <!--<th ng-click="sort('score')" style="cursor: pointer">Puntaje</th>-->
+                    <!--<th ng-click="sort('score_est')" style="cursor: pointer">Puntaje est</th>-->
                 </tr>
 
                 <tr>
                     <td></td>
                     <td sortable="'nameUniversity'"><input type="text" ng-model="filters.nameUniversity"></td>
                     <td><input type="text" ng-model="filters.sector"></td>
+                    <!--<td><input type="text" ng-model="filters.classification"></td>-->
                     <td><input type="text" ng-model="filters.isAccredited"></td>
+                    <!--<td></td>-->
+                    <!--<td></td>-->
                 </tr>
             </thead>
 
             <tbody>
                 <tr ng-repeat="arrayUniversities in universities">
                     <td>{{arrayUniversities.codeIes}}</td>
-                    <td>
+                    <td ng-if="arrayUniversities.yearU!='2017' ">
                         <a href="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/mide20/{{arrayUniversities.codeIes}}.pdf">{{arrayUniversities.nameUniversity}}</a>
                     </td>
+                    <td ng-if="arrayUniversities.yearU=='2017' ">
+                        <a href="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/mide20/{{arrayUniversities.codeIes}}_{{arrayUniversities.yearU}}u.pdf">{{arrayUniversities.nameUniversity}}</a>
+                    </td>
                     <td>{{arrayUniversities.sector}}</td>
+                    <!--<td>{{arrayUniversities.classification}}</td>-->
                     <td>{{arrayUniversities.isAccredited}}</td>
+                    <!--<td>{{arrayUniversities.score}}</td>-->
+                    <!--<td>{{arrayUniversities.score_est}}</td>-->
                 </tr>
             </tbody>
         </table>
     </div>
 </div>
-

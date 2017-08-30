@@ -4290,7 +4290,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1101,
+        "codeIes": "1101",
         "nameUniversity": "UNIVERSIDAD NACIONAL DE COLOMBIA",
         "sector": "OFICIAL",
         "classification": "ENFOQUE DOCTORAL",
@@ -4303,7 +4303,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1105,
+        "codeIes": "1105",
         "nameUniversity": "UNIVERSIDAD PEDAGOGICA NACIONAL",
         "sector": "OFICIAL",
         "classification": "ESPECIALIZADAS",
@@ -4316,7 +4316,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1106,
+        "codeIes": "1106",
         "nameUniversity": "UNIVERSIDAD PEDAGOGICA Y TECNOLOGICA DE COLOMBIA - UPTC",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4329,7 +4329,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1110,
+        "codeIes": "1110",
         "nameUniversity": "UNIVERSIDAD DEL CAUCA",
         "sector": "OFICIAL",
         "classification": "ENFOQUE DOCTORAL",
@@ -4342,7 +4342,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1111,
+        "codeIes": "1111",
         "nameUniversity": "UNIVERSIDAD TECNOLOGICA DE PEREIRA - UTP",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4355,7 +4355,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1112,
+        "codeIes": "1112",
         "nameUniversity": "UNIVERSIDAD DE CALDAS",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4368,7 +4368,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1113,
+        "codeIes": "1113",
         "nameUniversity": "UNIVERSIDAD DE CORDOBA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4381,7 +4381,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1114,
+        "codeIes": "1114",
         "nameUniversity": "UNIVERSIDAD SURCOLOMBIANA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4394,7 +4394,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1115,
+        "codeIes": "1115",
         "nameUniversity": "UNIVERSIDAD DE LA AMAZONIA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4407,7 +4407,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1117,
+        "codeIes": "1117",
         "nameUniversity": "UNIVERSIDAD MILITAR-NUEVA GRANADA",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4420,7 +4420,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1118,
+        "codeIes": "1118",
         "nameUniversity": "UNIVERSIDAD TECNOLOGICA DEL CHOCO-DIEGO LUIS CORDOBA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4433,7 +4433,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1119,
+        "codeIes": "1119",
         "nameUniversity": "UNIVERSIDAD DE LOS LLANOS",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4446,7 +4446,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1120,
+        "codeIes": "1120",
         "nameUniversity": "UNIVERSIDAD POPULAR DEL CESAR",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4459,7 +4459,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1121,
+        "codeIes": "1121",
         "nameUniversity": "UNIVERSIDAD-COLEGIO MAYOR DE CUNDINAMARCA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 2_4",
@@ -4472,7 +4472,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1122,
+        "codeIes": "1122",
         "nameUniversity": "UNIVERSIDAD DEL PACIFICO",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 2_4",
@@ -4485,7 +4485,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1201,
+        "codeIes": "1201",
         "nameUniversity": "UNIVERSIDAD DE ANTIOQUIA",
         "sector": "OFICIAL",
         "classification": "ENFOQUE DOCTORAL",
@@ -4498,7 +4498,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1202,
+        "codeIes": "1202",
         "nameUniversity": "UNIVERSIDAD DEL ATLANTICO",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4511,7 +4511,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1203,
+        "codeIes": "1203",
         "nameUniversity": "UNIVERSIDAD DEL VALLE",
         "sector": "OFICIAL",
         "classification": "ENFOQUE DOCTORAL",
@@ -4524,7 +4524,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1204,
+        "codeIes": "1204",
         "nameUniversity": "UNIVERSIDAD INDUSTRIAL DE SANTANDER",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4537,7 +4537,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1205,
+        "codeIes": "1205",
         "nameUniversity": "UNIVERSIDAD DE CARTAGENA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4550,11 +4550,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1206,
+        "codeIes": "1206",
         "nameUniversity": "UNIVERSIDAD DE NARI\u00d1O",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
-        "isAccredited": "SI",
+        "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -4563,7 +4563,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1207,
+        "codeIes": "1207",
         "nameUniversity": "UNIVERSIDAD DEL TOLIMA",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
@@ -4576,7 +4576,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1208,
+        "codeIes": "1208",
         "nameUniversity": "UNIVERSIDAD DEL QUINDIO",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4589,7 +4589,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1209,
+        "codeIes": "1209",
         "nameUniversity": "UNIVERSIDAD FRANCISCO DE PAULA SANTANDER",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4602,7 +4602,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1212,
+        "codeIes": "1212",
         "nameUniversity": "UNIVERSIDAD DE PAMPLONA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4615,7 +4615,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1213,
+        "codeIes": "1213",
         "nameUniversity": "UNIVERSIDAD DEL MAGDALENA - UNIMAGDALENA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4628,7 +4628,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1214,
+        "codeIes": "1214",
         "nameUniversity": "UNIVERSIDAD DE CUNDINAMARCA-UDEC",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4641,7 +4641,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1217,
+        "codeIes": "1217",
         "nameUniversity": "UNIVERSIDAD DE SUCRE",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4654,7 +4654,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1218,
+        "codeIes": "1218",
         "nameUniversity": "UNIVERSIDAD DE LA GUAJIRA",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -4667,11 +4667,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1301,
+        "codeIes": "1301",
         "nameUniversity": "UNIVERSIDAD DISTRITAL-FRANCISCO JOSE DE CALDAS",
         "sector": "OFICIAL",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "SI",
+        "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -4680,7 +4680,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1701,
+        "codeIes": "1701",
         "nameUniversity": "PONTIFICIA UNIVERSIDAD JAVERIANA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE DOCTORAL",
@@ -4693,7 +4693,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1703,
+        "codeIes": "1703",
         "nameUniversity": "UNIVERSIDAD INCCA DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -4706,7 +4706,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1704,
+        "codeIes": "1704",
         "nameUniversity": "UNIVERSIDAD SANTO TOMAS",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4719,7 +4719,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1706,
+        "codeIes": "1706",
         "nameUniversity": "UNIVERSIDAD EXTERNADO DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -4732,11 +4732,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1707,
+        "codeIes": "1707",
         "nameUniversity": "FUNDACION UNIVERSIDAD DE BOGOTA - JORGE TADEO LOZANO",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
-        "isAccredited": "SI",
+        "isAccredited": "PR",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -4745,7 +4745,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1709,
+        "codeIes": "1709",
         "nameUniversity": "UNIVERSIDAD CENTRAL",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -4758,7 +4758,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1710,
+        "codeIes": "1710",
         "nameUniversity": "UNIVERSIDAD PONTIFICIA BOLIVARIANA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE DOCTORAL",
@@ -4771,7 +4771,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1711,
+        "codeIes": "1711",
         "nameUniversity": "UNIVERSIDAD DE LA SABANA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4784,11 +4784,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1712,
+        "codeIes": "1712",
         "nameUniversity": "UNIVERSIDAD EAFIT-",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "SI",
+        "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -4797,7 +4797,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1713,
+        "codeIes": "1713",
         "nameUniversity": "UNIVERSIDAD DEL NORTE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE DOCTORAL",
@@ -4810,7 +4810,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1714,
+        "codeIes": "1714",
         "nameUniversity": "COLEGIO MAYOR DE NUESTRA SE\u00d1ORA DEL ROSARIO",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4823,7 +4823,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1715,
+        "codeIes": "1715",
         "nameUniversity": "FUNDACION UNIVERSIDAD DE AMERICA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -4836,11 +4836,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1718,
+        "codeIes": "1718",
         "nameUniversity": "UNIVERSIDAD DE SAN BUENAVENTURA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "SI",
+        "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -4849,7 +4849,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1719,
+        "codeIes": "1719",
         "nameUniversity": "UNIVERSIDAD CATOLICA DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -4862,7 +4862,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1720,
+        "codeIes": "1720",
         "nameUniversity": "UNIVERSIDAD MARIANA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4875,7 +4875,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1722,
+        "codeIes": "1722",
         "nameUniversity": "UNIVERSIDAD DE MANIZALES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4888,7 +4888,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1725,
+        "codeIes": "1725",
         "nameUniversity": "FUNDACION UNIVERSIDAD AUTONOMA DE COLOMBIA -FUAC-",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -4901,7 +4901,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1726,
+        "codeIes": "1726",
         "nameUniversity": "UNIVERSIDAD CATOLICA DE ORIENTE",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -4914,7 +4914,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1728,
+        "codeIes": "1728",
         "nameUniversity": "UNIVERSIDAD SERGIO ARBOLEDA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4927,7 +4927,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1729,
+        "codeIes": "1729",
         "nameUniversity": "UNIVERSIDAD EL BOSQUE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4940,7 +4940,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1734,
+        "codeIes": "1734",
         "nameUniversity": "UNIVERSIDAD DE BOYACA UNIBOYACA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -4953,7 +4953,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1735,
+        "codeIes": "1735",
         "nameUniversity": "UNIVERSIDAD MANUELA BELTRAN-UMB-",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -4966,7 +4966,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1801,
+        "codeIes": "1801",
         "nameUniversity": "UNIVERSIDAD LA GRAN COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -4979,7 +4979,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1803,
+        "codeIes": "1803",
         "nameUniversity": "UNIVERSIDAD DE LA SALLE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -4992,8 +4992,8 @@
         "yearT": null
     },
     {
-        "codeIes": 1804,
-        "nameUniversity": "UNIVERSIDAD AUTONOMA DEL CARIBE- UNIAUTONOMA",
+        "codeIes": "1804",
+        "nameUniversity": "UNIVERSIDAD AUTONOMA DEL CARIBE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
         "isAccredited": "NO",
@@ -5005,7 +5005,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1805,
+        "codeIes": "1805",
         "nameUniversity": "UNIVERSIDAD SANTIAGO DE CALI",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -5018,7 +5018,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1806,
+        "codeIes": "1806",
         "nameUniversity": "UNIVERSIDAD LIBRE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5031,11 +5031,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1812,
+        "codeIes": "1812",
         "nameUniversity": "UNIVERSIDAD DE MEDELLIN",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "SI",
+        "isAccredited": "PR",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -5044,7 +5044,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1813,
+        "codeIes": "1813",
         "nameUniversity": "UNIVERSIDAD DE LOS ANDES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE DOCTORAL",
@@ -5057,7 +5057,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1814,
+        "codeIes": "1814",
         "nameUniversity": "UNIVERSIDAD AUTONOMA LATINOAMERICANA-UNAULA-",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5070,7 +5070,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1815,
+        "codeIes": "1815",
         "nameUniversity": "CORPORACION UNIVERSIDAD PILOTO DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5083,7 +5083,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1818,
+        "codeIes": "1818",
         "nameUniversity": "UNIVERSIDAD COOPERATIVA DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5096,7 +5096,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1823,
+        "codeIes": "1823",
         "nameUniversity": "UNIVERSIDAD AUTONOMA DE BUCARAMANGA-UNAB-",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5109,7 +5109,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1824,
+        "codeIes": "1824",
         "nameUniversity": "UNIVERSIDAD METROPOLITANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5122,7 +5122,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1825,
+        "codeIes": "1825",
         "nameUniversity": "UNIVERSIDAD AUTONOMA DE MANIZALES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5135,7 +5135,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1826,
+        "codeIes": "1826",
         "nameUniversity": "UNIVERSIDAD ANTONIO NARI\u00d1O",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -5148,7 +5148,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1827,
+        "codeIes": "1827",
         "nameUniversity": "UNIVERSIDAD CATOLICA DE MANIZALES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5161,7 +5161,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1828,
+        "codeIes": "1828",
         "nameUniversity": "UNIVERSIDAD ICESI",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5174,11 +5174,11 @@
         "yearT": null
     },
     {
-        "codeIes": 1830,
+        "codeIes": "1830",
         "nameUniversity": "UNIVERSIDAD AUTONOMA DE OCCIDENTE",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "NO",
+        "isAccredited": "SI",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -5187,7 +5187,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1831,
+        "codeIes": "1831",
         "nameUniversity": "UNIVERSIDAD DE IBAGUE",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5200,7 +5200,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1832,
+        "codeIes": "1832",
         "nameUniversity": "UNIVERSIDAD TECNOLOGICA DE BOLIVAR",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5213,7 +5213,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1833,
+        "codeIes": "1833",
         "nameUniversity": "UNIVERSIDAD DEL SINU - ELIAS BECHARA ZAINUM - UNISINU -",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -5226,7 +5226,7 @@
         "yearT": null
     },
     {
-        "codeIes": 1835,
+        "codeIes": "1835",
         "nameUniversity": "UNIVERSIDAD DE CIENCIAS APLICADAS Y AMBIENTALES UDCA.",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -5239,7 +5239,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2102,
+        "codeIes": "2102",
         "nameUniversity": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD",
         "sector": "OFICIAL",
         "classification": "PREGRADO U 5_8",
@@ -5252,7 +5252,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2104,
+        "codeIes": "2104",
         "nameUniversity": "ESCUELA SUPERIOR DE ADMINISTRACION PUBLICA-ESAP-",
         "sector": "OFICIAL",
         "classification": "ESPECIALIZADAS",
@@ -5265,20 +5265,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2106,
-        "nameUniversity": "DIRECCION NACIONAL DE ESCUELAS",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "NO",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 2110,
+        "codeIes": "2110",
         "nameUniversity": "COLEGIO MAYOR DE ANTIOQUIA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5291,7 +5278,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2114,
+        "codeIes": "2114",
         "nameUniversity": "ESCUELA NACIONAL DEL DEPORTE",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5304,7 +5291,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2206,
+        "codeIes": "2206",
         "nameUniversity": "INSTITUTO DEPARTAMENTAL DE BELLAS ARTES",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5317,7 +5304,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2207,
+        "codeIes": "2207",
         "nameUniversity": "INSTITUTO UNIVERSITARIO DE LA PAZ",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 5_8",
@@ -5330,7 +5317,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2208,
+        "codeIes": "2208",
         "nameUniversity": "CONSERVATORIO DEL TOLIMA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5343,7 +5330,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2209,
+        "codeIes": "2209",
         "nameUniversity": "POLITECNICO COLOMBIANO JAIME ISAZA CADAVID",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5356,7 +5343,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2211,
+        "codeIes": "2211",
         "nameUniversity": "INSTITUCION UNIVERSITARIA BELLAS ARTES Y CIENCIAS DE BOLIVAR",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5369,7 +5356,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2301,
+        "codeIes": "2301",
         "nameUniversity": "UNIDAD CENTRAL DEL VALLE DEL CAUCA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 5_8",
@@ -5382,7 +5369,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2302,
+        "codeIes": "2302",
         "nameUniversity": "INSTITUCION UNIVERSITARIA DE ENVIGADO",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -5395,7 +5382,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2701,
+        "codeIes": "2701",
         "nameUniversity": "INSTITUCION UNIVERSITARIA COLEGIOS DE COLOMBIA - UNICOC",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5408,7 +5395,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2702,
+        "codeIes": "2702",
         "nameUniversity": "FUNDACION UNIVERSITARIA DE CIENCIAS DE LA SALUD",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5421,7 +5408,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2704,
+        "codeIes": "2704",
         "nameUniversity": "COLEGIO DE ESTUDIOS SUPERIORES DE ADMINISTRACION-CESA-",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5434,7 +5421,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2707,
+        "codeIes": "2707",
         "nameUniversity": "FUNDACION UNIVERSITARIA JUAN N. CORPAS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5447,7 +5434,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2708,
+        "codeIes": "2708",
         "nameUniversity": "UNIVERSIDAD CES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5460,7 +5447,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2709,
+        "codeIes": "2709",
         "nameUniversity": "FUNDACION UNIVERSITARIA SAN MARTIN",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5473,7 +5460,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2710,
+        "codeIes": "2710",
         "nameUniversity": "FUNDACION UNIVERSITARIA MONSERRATE -UNIMONSERRATE",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5486,7 +5473,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2711,
+        "codeIes": "2711",
         "nameUniversity": "UNIVERSIDAD CATOLICA DE PEREIRA",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -5499,7 +5486,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2712,
+        "codeIes": "2712",
         "nameUniversity": "FUNDACION UNIVERSITARIA KONRAD LORENZ",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5512,7 +5499,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2713,
+        "codeIes": "2713",
         "nameUniversity": "FUNDACION UNIVERSITARIA LOS LIBERTADORES",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5525,7 +5512,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2715,
+        "codeIes": "2715",
         "nameUniversity": "FUNDACION UNIVERSITARIA DE POPAYAN",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5538,20 +5525,20 @@
         "yearT": null
     },
     {
-        "codeIes": 2719,
-        "nameUniversity": "UNIVERSIDAD CAT\u00d3LICA LUIS AMIG\u00d3-FUNLAM",
+        "codeIes": "2719",
+        "nameUniversity": "FUNDACION UNIVERSITARIA LUIS AMIGO FUNLAM",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
         "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
+        "caracter": "UNIVERSIDAD",
         "productMide": null,
         "yearU": 2017,
         "yearT": null
     },
     {
-        "codeIes": 2720,
+        "codeIes": "2720",
         "nameUniversity": "FUNDACION UNIVERSITARIA JUAN DE CASTELLANOS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5564,7 +5551,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2721,
+        "codeIes": "2721",
         "nameUniversity": "FUNDACION UNIVERSITARIA MARIA CANO",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5577,7 +5564,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2723,
+        "codeIes": "2723",
         "nameUniversity": "FUNDACION UNIVERSITARIA AGRARIA DE COLOMBIA -UNIAGRARIA-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5590,7 +5577,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2724,
+        "codeIes": "2724",
         "nameUniversity": "FUNDACION UNIVERSITARIA DE SAN GIL - UNISANGIL -",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5603,7 +5590,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2725,
+        "codeIes": "2725",
         "nameUniversity": "POLITECNICO GRANCOLOMBIANO",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5616,7 +5603,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2727,
+        "codeIes": "2727",
         "nameUniversity": "FUNDACION UNIVERSITARIA-CEIPA-",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5629,7 +5616,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2728,
+        "codeIes": "2728",
         "nameUniversity": "FUNDACION UNIVERSITARIA DEL AREA ANDINA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5642,7 +5629,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2730,
+        "codeIes": "2730",
         "nameUniversity": "FUNDACION ESCUELA COLOMBIANA DE REHABILITACION",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5655,7 +5642,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2731,
+        "codeIes": "2731",
         "nameUniversity": "FUNDACION UNIVERSITARIA CATOLICA LUMEN GENTIUM",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5668,7 +5655,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2732,
+        "codeIes": "2732",
         "nameUniversity": "FUNDACION UNIVERSITARIA CATOLICA DEL NORTE",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5681,7 +5668,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2733,
+        "codeIes": "2733",
         "nameUniversity": "FUNDACI\u00d3N UNIVERSITARIA SAN ALFONSO- FUSA-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5694,7 +5681,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2736,
+        "codeIes": "2736",
         "nameUniversity": "FUNDACION UNIVERSITARIA SEMINARIO BIBLICO DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5707,7 +5694,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2738,
+        "codeIes": "2738",
         "nameUniversity": "FUNDACION UNIVESITARIA EMPRESARIAL DE LA CAMARA DE COMERCIO DE BOGOTA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5720,7 +5707,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2740,
+        "codeIes": "2740",
         "nameUniversity": "INSTITUCION UNIVERSITARIA COLOMBO AMERICANA - UNICA",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5733,7 +5720,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2741,
+        "codeIes": "2741",
         "nameUniversity": "FUNDACION DE ESTUDIOS SUPERIORES - MONSE\u00d1OR ABRAHAM ESCUDERO MONTOYA  - FUNDES",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5746,7 +5733,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2743,
+        "codeIes": "2743",
         "nameUniversity": "FUNDACION UNIVERSITARIA INTERNACIONAL DEL TROPICO AMERICANO",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5759,7 +5746,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2744,
+        "codeIes": "2744",
         "nameUniversity": "INSTITUCION UNIVERSITARIA CENTRO DE ESTUDIOS SUPERIORES MARIA GORETTI",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5772,7 +5759,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2745,
+        "codeIes": "2745",
         "nameUniversity": "UNIPANAMERICANA - FUNDACION UNIVERSITARIA PANAMERICANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5785,7 +5772,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2746,
+        "codeIes": "2746",
         "nameUniversity": "FUNDACION UNIVERSITARIA SANITAS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5798,7 +5785,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2747,
+        "codeIes": "2747",
         "nameUniversity": "FUNDACION UNIVERSITARIA AUTONOMA DE LAS AMERICAS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5811,7 +5798,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2748,
+        "codeIes": "2748",
         "nameUniversity": "FUNDACION UNIVERSITARIA SEMINARIO TEOLOGICO BAUTISTA INTERNACIONAL",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5824,7 +5811,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2749,
+        "codeIes": "2749",
         "nameUniversity": "INSTITUCION UNIVERSITARIA  SALAZAR Y HERRERA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5837,11 +5824,11 @@
         "yearT": null
     },
     {
-        "codeIes": 2805,
+        "codeIes": "2805",
         "nameUniversity": "UNIVERSIDAD SIMON BOLIVAR",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
-        "isAccredited": "SI",
+        "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
         "caracter": "UNIVERSIDAD",
@@ -5850,7 +5837,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2810,
+        "codeIes": "2810",
         "nameUniversity": "CORPORACION UNIVERSIDAD DE LA COSTA CUC",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 2_4",
@@ -5863,7 +5850,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2811,
+        "codeIes": "2811",
         "nameUniversity": "ESCUELA COLOMBIANA DE INGENIERIA JULIO GARAVITO",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5876,7 +5863,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2812,
+        "codeIes": "2812",
         "nameUniversity": "UNIVERSIDAD EAN",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -5889,7 +5876,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2813,
+        "codeIes": "2813",
         "nameUniversity": "UNIVERSIDAD EIA",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -5902,7 +5889,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2815,
+        "codeIes": "2815",
         "nameUniversity": "CORPORACION UNIVERSITARIA ADVENTISTA - UNAC",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5915,7 +5902,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2818,
+        "codeIes": "2818",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE SANTA ROSA DE CABAL-UNISARC-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5928,7 +5915,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2820,
+        "codeIes": "2820",
         "nameUniversity": "CORPORACION UNIVERSITARIA LASALLISTA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5941,7 +5928,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2823,
+        "codeIes": "2823",
         "nameUniversity": "CORPORACION UNIVERSITARIA DEL CARIBE - CECAR",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5954,7 +5941,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2824,
+        "codeIes": "2824",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE COLOMBIA IDEAS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -5967,7 +5954,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2825,
+        "codeIes": "2825",
         "nameUniversity": "CORPORACION UNIVERSITARIA RAFAEL NU\u00d1EZ",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -5980,8 +5967,8 @@
         "yearT": null
     },
     {
-        "codeIes": 2827,
-        "nameUniversity": "CORPORACION UNIVERSITARIA DEL META - UNIMETA",
+        "codeIes": "2827",
+        "nameUniversity": "CORPORACION UNIVERSITARIA DEL META",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
         "isAccredited": "NO",
@@ -5993,7 +5980,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2828,
+        "codeIes": "2828",
         "nameUniversity": "CORPORACION UNIVERSITARIA DEL HUILA-CORHUILA-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6006,7 +5993,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2829,
+        "codeIes": "2829",
         "nameUniversity": "CORPORACION UNIVERSITARIA MINUTO DE DIOS -UNIMINUTO-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6019,7 +6006,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2830,
+        "codeIes": "2830",
         "nameUniversity": "CORPORACION UNIVERSITARIA IBEROAMERICANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6032,7 +6019,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2831,
+        "codeIes": "2831",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE CIENCIA Y DESARROLLO - UNICIENCIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6045,7 +6032,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2832,
+        "codeIes": "2832",
         "nameUniversity": "UNIVERSIDAD DE SANTANDER - UDES",
         "sector": "PRIVADA",
         "classification": "ENFOQUE MAESTRIA",
@@ -6058,7 +6045,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2833,
+        "codeIes": "2833",
         "nameUniversity": "CORPORACION UNIVERSITARIA REMINGTON",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 5_8",
@@ -6071,7 +6058,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2834,
+        "codeIes": "2834",
         "nameUniversity": "UNIVERSITARIA AGUSTINIANA- UNIAGUSTINIANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6084,7 +6071,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2836,
+        "codeIes": "2836",
         "nameUniversity": "CORPORACION UNIVERSITARIA EMPRESARIAL DE SALAMANCA",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -6097,7 +6084,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2837,
+        "codeIes": "2837",
         "nameUniversity": "CORPORACION UNIVERSITARIA REPUBLICANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6110,7 +6097,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2838,
+        "codeIes": "2838",
         "nameUniversity": "CORPORACION COLEGIATURA COLOMBIANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6123,7 +6110,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2840,
+        "codeIes": "2840",
         "nameUniversity": "CORPORACION UNIVERSITARIA EMPRESARIAL ALEXANDER VON HUMBOLDT - CUE",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6136,7 +6123,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2842,
+        "codeIes": "2842",
         "nameUniversity": "CORPORACION UNIVERSITARIA REFORMADA - CUR -",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6149,7 +6136,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2847,
+        "codeIes": "2847",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE INVESTIGACION Y DESARROLLO - UDI",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6162,7 +6149,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2848,
+        "codeIes": "2848",
         "nameUniversity": "CORPORACION UNIVERSITARIA  UNITEC",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6175,7 +6162,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2849,
+        "codeIes": "2849",
         "nameUniversity": "CORPORACION UNIVERSITARIA AUTONOMA DEL CAUCA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6188,7 +6175,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2850,
+        "codeIes": "2850",
         "nameUniversity": "CORPORACION UNIVERSITARIA ANTONIO JOSE DE SUCRE - CORPOSUCRE",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6201,20 +6188,7 @@
         "yearT": null
     },
     {
-        "codeIes": 2902,
-        "nameUniversity": "ESCUELA DE LOGISTICA",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "NO",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 3104,
+        "codeIes": "3104",
         "nameUniversity": "COLEGIO MAYOR DEL CAUCA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -6227,7 +6201,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3107,
+        "codeIes": "3107",
         "nameUniversity": "INSTITUCI\u00d3N UNIVERSITARIA PASCUAL BRAVO",
         "sector": "OFICIAL",
         "classification": "ESPECIALIZADAS",
@@ -6240,8 +6214,8 @@
         "yearT": null
     },
     {
-        "codeIes": 3117,
-        "nameUniversity": "INSTITUCI\u00d3N UNIVERSITARIA ITSA",
+        "codeIes": "3117",
+        "nameUniversity": "INSTITUCI\u00bfN UNIVERSITARIA ITSA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
         "isAccredited": "NO",
@@ -6253,7 +6227,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3204,
+        "codeIes": "3204",
         "nameUniversity": "TECNOLOGICO DE ANTIOQUIA",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -6266,7 +6240,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3301,
+        "codeIes": "3301",
         "nameUniversity": "INSTITUCION UNIVERSITARIA ANTONIO JOSE CAMACHO",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 5_8",
@@ -6279,7 +6253,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3302,
+        "codeIes": "3302",
         "nameUniversity": "INSTITUTO TECNOLOGICO METROPOLITANO",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -6292,7 +6266,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3703,
+        "codeIes": "3703",
         "nameUniversity": "FUNDACION ESCUELA COLOMBIANA DE MERCADOTECNIA -ESCOLME-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6305,7 +6279,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3705,
+        "codeIes": "3705",
         "nameUniversity": "FUNDACION UNIVERSITARIA TECNOLOGICO COMFENALCO - CARTAGENA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6318,7 +6292,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3713,
+        "codeIes": "3713",
         "nameUniversity": "FUNDACION UNIVERSITARIA PARA EL DESARROLLO HUMANO - UNINPAHU",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6331,7 +6305,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3719,
+        "codeIes": "3719",
         "nameUniversity": "INSTITUCION UNIVERSITARIA LATINA - UNILATINA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6344,7 +6318,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3720,
+        "codeIes": "3720",
         "nameUniversity": "FUNDACION UNIVERSITARIA ESUMER",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -6357,7 +6331,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3803,
+        "codeIes": "3803",
         "nameUniversity": "CORPORACION UNIVERSITARIA CENTRO SUPERIOR - UNICUCES",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6370,7 +6344,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3817,
+        "codeIes": "3817",
         "nameUniversity": "CORPORACION UNIVERSITARIA AUTONOMA DE NARI\u00d1O -AUNAR-",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6383,7 +6357,7 @@
         "yearT": null
     },
     {
-        "codeIes": 3831,
+        "codeIes": "3831",
         "nameUniversity": "CORPORACION UNIVERSITARIA COMFACAUCA - UNICOMFACAUCA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6396,7 +6370,7 @@
         "yearT": null
     },
     {
-        "codeIes": 4108,
+        "codeIes": "4108",
         "nameUniversity": "ESCUELA TECNOLOGICA INSTITUTO TECNICO CENTRAL",
         "sector": "OFICIAL",
         "classification": "PREGRADO I 2_4",
@@ -6409,20 +6383,20 @@
         "yearT": null
     },
     {
-        "codeIes": 4709,
-        "nameUniversity": "INSTITUCION UNIVERSITARIA EAM",
+        "codeIes": "4709",
+        "nameUniversity": "ESCUELA DE ADMINISTRACION Y MERCADOTECNIA DEL QUINDIO E.A.M.",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
         "isAccredited": "NO",
         "score": "0.0%",
         "score_est": "0.0%",
-        "caracter": "INSTITUCION TECNICA PROFESIONAL",
+        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
         "productMide": null,
         "yearU": 2017,
         "yearT": null
     },
     {
-        "codeIes": 4810,
+        "codeIes": "4810",
         "nameUniversity": "CORPORACION UNIVERSITARIA CENDA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6435,7 +6409,7 @@
         "yearT": null
     },
     {
-        "codeIes": 4818,
+        "codeIes": "4818",
         "nameUniversity": "CORPORACION UNIVERSITARIA LATINOAMERICANA - CUL",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6448,7 +6422,7 @@
         "yearT": null
     },
     {
-        "codeIes": 4822,
+        "codeIes": "4822",
         "nameUniversity": "CORPORACION ESCUELA DE ARTES Y LETRAS",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6461,7 +6435,7 @@
         "yearT": null
     },
     {
-        "codeIes": 4837,
+        "codeIes": "4837",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE CIENCIAS EMPRESARIALES, EDUCACION Y SALUD -CORSALUD-",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -6474,7 +6448,7 @@
         "yearT": null
     },
     {
-        "codeIes": 5802,
+        "codeIes": "5802",
         "nameUniversity": "UNIVERSIDAD ECCI",
         "sector": "PRIVADA",
         "classification": "PREGRADO U 5_8",
@@ -6487,59 +6461,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9103,
-        "nameUniversity": "ESCUELA MILITAR DE AVIACION MARCO FIDEL SUAREZ",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "NO",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 9104,
-        "nameUniversity": "ESCUELA MILITAR DE CADETES GENERAL JOSE MARIA CORDOVA",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "SI",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 9105,
-        "nameUniversity": "ESCUELA NAVAL DE CADETES ALMIRANTE PADILLA",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "NO",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "UNIVERSIDAD",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 9107,
-        "nameUniversity": "ESCUELA DE INGENIEROS MILITARES",
-        "sector": "OFICIAL",
-        "classification": "MILITARES",
-        "isAccredited": "NO",
-        "score": "0.0%",
-        "score_est": "0.0%",
-        "caracter": "INSTITUCION UNIVERSITARIA\/ESCUELA TECNOLOGICA",
-        "productMide": null,
-        "yearU": 2017,
-        "yearT": null
-    },
-    {
-        "codeIes": 9116,
+        "codeIes": "9116",
         "nameUniversity": "FUNDACION UNIVERSITARIA CLARETIANA - UNICLARETIANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6552,7 +6474,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9119,
+        "codeIes": "9119",
         "nameUniversity": "CORPORACION UNIVERSITARIA AMERICANA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6565,7 +6487,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9120,
+        "codeIes": "9120",
         "nameUniversity": "FUNDACION UNIVERSITARIA BELLAS ARTES",
         "sector": "PRIVADA",
         "classification": "ESPECIALIZADAS",
@@ -6578,7 +6500,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9121,
+        "codeIes": "9121",
         "nameUniversity": "FUNDACION UNIVERSITARIA COLOMBO INTERNACIONAL - UNICOLOMBO",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6591,7 +6513,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9127,
+        "codeIes": "9127",
         "nameUniversity": "CORPORACION UNIVERSITARIA DE SABANETA - UNISABANETA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6604,8 +6526,8 @@
         "yearT": null
     },
     {
-        "codeIes": 9129,
-        "nameUniversity": "FUNDACION UNIVERSITARIA CAFAM -UNICAFAM",
+        "codeIes": "9129",
+        "nameUniversity": "FUNDACION UNIVERSITARIA CAFAM",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
         "isAccredited": "NO",
@@ -6617,7 +6539,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9131,
+        "codeIes": "9131",
         "nameUniversity": "FUNDACION UNIVERSITARIA CERVANTINA SAN AGUSTIN - UNICERVANTINA SAN AGUSTIN",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
@@ -6630,7 +6552,7 @@
         "yearT": null
     },
     {
-        "codeIes": 9899,
+        "codeIes": "9899",
         "nameUniversity": "INSTITUCION UNIVERSITARIA DE COLOMBIA - UNIVERSITARIA DE COLOMBIA",
         "sector": "PRIVADA",
         "classification": "PREGRADO I 2_4",
